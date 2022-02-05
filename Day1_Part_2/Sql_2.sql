@@ -39,3 +39,5 @@ select lower('Abhishek'),upper('Abhishek')
 select replace('Java Training','Java','Sql');
 
 select 'abhishek' + ' Anand'
+
+select nam + dept from Emp 
