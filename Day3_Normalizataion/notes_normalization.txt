@@ -1,0 +1,204 @@
+Normalization : 
+
+It is a scientific method of breaking down the complex table structures into simple table structure by using certain rules. 
+
+
+There are various types of normal forms as
+
+(i) First Normal Form
+
+(ii) Second Normal Form
+
+(iii) Third Normal Form 
+
+PROJECT(Ecode,Ename,Gender,DeptCode,DEPTHEAD,PROJCODE,HOURS)
+
+E001,Subham,Male,D001,Amrut,{P001,P002,P003},{56,88,483} 
+
+First Normal Form : A table said to be in 1NF, when each cell contains precisely
+one value (Atomic Values) 
+
+By Applying 1NF, for above records 
+
+E001,Subham,Male,D001,Amrut,P001,56
+E001,Subham,Male,D001,Amrut,P002,88
+E001,Subham,Male,D001,Amrut,P003,483
+
+How can we check the table completely normalized ???
+
+For that we have to check for INSERT, Update and Delete Anomolies 
+
+1) Insert : Employee record cannot be entered till he assign a project. 
+
+2) Update : The Employee Code, Department Name, and department head are repeated several times, if an employee is transferred to another dept. this change will have to be recorded in every row of the EMPLOYEE table pertaining to that employee. 
+
+3) Delete : When an employee completes work on the project, the employee's record to be deleted. The info. regarding the department to which the emplyee belongs will also to be lost. 
+
+*** First Normal Form inadequate ***
+
+So, we have to go to 2NF 
+
+Second Normal Form : A table said to be in 2NF, at first it must be in 1NF, and every attribute functionally dependent on whole key but not part of the key. 
+
+Guidelines : 
+
+	-> Find and remove attributes, that are not functionally depending on whole key
+
+	-> Group the remaining attributes 
+
+
+PROJECT(Ecode,Ename,Gender,DeptCode,DEPTHEAD,PROJCODE,HOURS)
+
+
+Ecode -> Ename (yes)
+Ecode -> Gender (yes)
+Ecode -> DeptCode (yes)
+Ecode -> DeptHead (Yes) 
+Ecode -> ProjectCode (No) 
+Ecode -> Hours (No) 
+
+
+Employ(Ecode+,Ename,gender,DeptCode,DeptHead)
+Project(Ecode-,ProjCode,Hours)
+
+Insert :  The DeptCode, DEPTHEAD of a new dept that does not have any employees at the present cannot be entered in the DEPTHEAD column. 
+
+Update : the DEPTHEAD is repeated several times, hence if a dept head moves to another dept, the change will have to be made consistently across the table. 
+
+Delete : If the record of the employee is deleted, then the information regarding the head of the dept will also to be deleted. Hence there will be a loss of information. 
+
+w.r.t. this 2NF inadequeate to handle, to we need to move to 3NF 
+
+because there is chance for transitive depedency. 
+
+Third normal Form : A table said to be in 3NF, at first it must be in 2NF, every attribute needs to depend on another attribute funtionally, but not transitively. 
+
+Guidelines : 
+
+	-> Find and remove attributes, that are transitively depend on whole key
+
+	-> Group the remaining attributes 
+
+
+By Applying 3NF 
+________________
+
+
+Employ(Ecode+,Ename,gender,DeptCode,DeptHead)
+Project(Ecode-,ProjCode,Hours)
+       
+
+
+Dept(DeptCode+,DeptHead)
+Employ(Ecode+,DeptCode-,Ename,Gender)
+Project(Ecode-,ProjCode+,Hours)
+
+_______________________________________________________________________________________________
+
+
+EmployeeInfo(EmpId,Ename,ManagerId,LeaveBalance,DepartmentCode,DeptHead,Location,DateofBirth,
+LeaveId,LeaveStartDate,LeaveEndDate,NoOfDays,leaveAppliedOn,leaveReason) 
+
+E001,'Naveen',E002,20,Dotnet,'01/01/2000',{L001,L002,L003},{'12/12/2002',
+'12/11/2022','11/11/2022},{'12/12/2002','12/11/2022','11/11/2022},
+{1,1,1},{'12/12/2002','12/11/2022','11/11/2022},{'Marriage','Sick','Going Home'}
+
+First Normal Form : A table said to be in 1NF when each cell contains precisely one value (Atomic Values) 
+
+Insert : Employee Records cannot be inserted till his leaveDetails are available
+
+Update : Employee Record contains DeptCode,DeptHead repeated multiple times, so if any change to be reflected to all employees manually. 
+
+Delete : If any employee record to be deleted, then his manager details, leave details and dept details all 
+		will be deleted. 
+
+So, firstNormal Form inadequate 
+
+Second Normal Form : A table said to be in 2NF, at first it must be in 1NF and every attribute needs to depend functionally on whole key but not part of the key. 
+
+Guidelines : 
+
+	Find and remove attributes, that are not functionally depend on whole key
+
+	Group the remaining attributes 
+
+By Applying, 2NF 
+
+
+EmployeeInfo(EmpId,Ename,ManagerId,LeaveBalance,DepartmentCode,DeptHead,Location,DateofBirth,
+LeaveId,LeaveStartDate,LeaveEndDate,NoOfDays,leaveAppliedOn,leaveReason,ManagerComments) 
+
+
+EmpId -> Ename (Yes)
+EmpId -> ManagerId (yes) 
+EmpId -> LeaveBalance (yes) 
+EmpId -> DeptCode (Yes)
+EmpId -> DeptHead (yes)
+EmpId -> Locataion (yes) 
+EmpId -> DateofBirth(yes) 
+EmpId -> LeaveID (no)
+EmpId -> LeaveStartDate (no)
+EmpId -> LeaveEndDate (no)
+EmpId -> NoOfDays (No)
+EmpId -> leaveAppliedOn (No)
+EmpId -> leaveReason (No) 
+EmpId -> ManagerComments (No) 
+
+Employee(EmpId,Ename,ManagerId,LeaveBalance,DeptCode,DeptHead,Location,DateOfBirth)
+LeaveDetails(EmpId-,LeaveId,LeaveStartDate,LeaveEndDate,NoOfDays,leaveAppliedOn,
+leaveReason,ManagerComments)
+
+Insert : DeptCode, Depthead of new dept canot be inserted till employees are available
+
+Update : DeptCode, DeptHead are repeated multiple times, so if any chang needs to be 
+reflected to all employees manually
+
+Delete : If any employee resigns, that particular Dept Head also to be resigned 
+
+So, 2NF inadequate 
+
+3NF : A table said to be in 3NF, at first it must be in 2NF and every attribute
+functionally depend on whole key but not transitively
+
+Guidelines : 
+____________
+
+	-> Find and remove attributes that are transitively depend on whole key
+
+	-> Group the remaining attributes 
+
+by Applying 3NF
+
+
+Department(DeptCode+,DeptHead,Location)
+Employee(EmpId+,Ename,ManagerId,LeaveBalance,DeptCode-,DateOfBirth)
+LeaveDetails(EmpId-,LeaveId+,LeaveStartDate,LeaveEndDate,NoOfDays,leaveAppliedOn,
+leaveReason,ManagerComments)
+
+_______________________________________________________________________________________________
+
+AgentPolicyCustomerInfo(AgentId,AgentName,AgentCity,AgentState,
+PolicyID,PolicyName,PolicyAmount,Installment,PayMode,CustomerId,
+CustomerName,CustomerCity,CustomerState,Gender)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
