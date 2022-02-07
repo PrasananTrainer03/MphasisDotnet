@@ -1,0 +1,28 @@
+1) Display all Records from Dept table
+
+2) Display all employees records 
+
+3) Display all project records 
+
+4) Display employee names who are working in more than one project
+
+5) Display all employees who are working in projects
+
+6) Display all employess who are not working in project (idle employees)
+
+7) Display DeptCode,Ename,ProjCode, Hours from 3 tables
+
+8) Display all Employee Names whose Hours for project >= 100
+
+9) Display Project Details as projCode and No.of employees working 
+Example P1 3 
+	P2 4 like that
+
+10) Display Information as How many employees are working in each Dept 
+
+11) Display Idle Departments (which is in Dept but not in Emp)
+
+12) Display all Departments who have Employees 
+
+13) Display all Deparment details who have more than 1 employee 
+
