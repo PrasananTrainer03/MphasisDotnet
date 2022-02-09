@@ -1,0 +1,9 @@
+Canteeen Management System(RestaurantID,RestaurantName,Location,Rating,MenuID,ItemName,Price,Description,
+CustomerId,CustomerName,CustomerUserName,CustomerPassword,CustomerCity,CustomerState,VendorID,VendorName,VendorUserName,VendorPassword,VendorCity,VendorState,OrderId,OrderDate,QuantityOrdered,OrderComments,WalletId,WalletType,WalletAmount)
+
+
+Normalize the Above Scenario once accepted needs to create tables 
+
+
+Thank You
+
