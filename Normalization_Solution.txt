@@ -1,0 +1,28 @@
+Please find solution for Normalization
+
+Restaurant(RestaurantId+,RestaurantName,Location,Rating)
+
+restaurantId is primary key
+
+Menu(MenuID+, RestaurantID-,ItemName,Price,Description)
+
+MenuId is primary key and RestaurantID is Foreign key
+
+Customer(CustomerId+,Customername,CustomerUserName,CustomerPassword,CustomerCity,CustomerState)
+CustomerId is Primary Key
+
+Vendor(VendorID+,VendorName,VendorUserName,VendorPassword,VendorCity,VendorState)
+VendorId is primary key
+
+
+Wallet(WalletId+,CustomerID-,WalletType,WalletAmount)
+
+WalletID is primary key
+CustomerId is foreign key
+Wallettype willbe (PHONEPE,GPAY,NETBANKING,CREDITCARD)
+
+OrderDetails(OrderId+,CustomerID-,VendorID-,MenuID-,WalletID-,OrdQuantity,BillAmount,OrderComments)
+
+OrderId is primary Key
+CustomerId, VendorId, menuId,WalletID are foreign keys.
+
