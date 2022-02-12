@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        function show() {
+            var gen = frmData.gender.value;
+            document.getElementById("result").innerHTML = gen;
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form name="frmData">
+        <center>
+            Gender : 
+            <input type="radio" name="gender" value="Male" onchange="show()" /> Male
+            <br /><br/> 
+            <input type="radio" name="gender" value="Female" onchange="show()" /> Female
+            <br/><br/>
+            <span id="result"></span>
+                  </center>
+    </form>
+</body>
+</html>

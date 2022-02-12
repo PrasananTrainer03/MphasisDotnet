@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        function show() {
+            if (frmData.chkStatus.checked == true) {
+                document.getElementById("result").innerHTML = "Student is Present...";
+            } else {
+                document.getElementById("result").innerHTML = "Student is Absent...";
+            }
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form name="frmData">
+        <center>
+            Status : 
+            <input type="checkbox" name="chkStatus" onchange="show()" /> <br/><br/>
+            <span id="result"></span>
+        </center>
+    </form>
+</body>
+</html>
