@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        function show() {
+            var result = "";
+            if (frmAttendance.chkRohan.checked == true) {
+                result += "Rohan Mane is Present Today...<br/>";
+            } else {
+                result += "Rohan Mane is Absent Today...<br/>";
+            }
+            if (frmAttendance.chkSanjay.checked == true) {
+                result += "Sanjay is Present Today...<br/>";
+            } else {
+                result += "Sanjay is Absent Today...<br/>";
+            }
+            if (frmAttendance.chkSaurabh.checked == true) {
+                result += "Saurabh is Present Today...<br/>";
+            } else {
+                result += "Saurabh is Absent Today...<br/>";
+            }
+            document.getElementById("result").innerHTML = result;
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form name="frmAttendance">
+        <center>
+            <input type="checkbox" name="chkRohan" onchange="show()" />Rohan Mane <br/><br/>
+            <input type="checkbox" name="chkSanjay" onchange="show()" /> Sanjay Kumar <br/><br />
+            <input type="checkbox" name="chkSaurabh" onchange="show()" /> Saurabh Satish <br/><br/>
+            <span id="result"></span>
+        </center>
+    </form>
+</body>
+</html>
