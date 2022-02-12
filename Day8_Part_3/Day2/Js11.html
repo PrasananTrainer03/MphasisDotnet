@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        function doLogin() {
+            if (frmLogin.userName.value == "") {
+                document.getElementById("err1").innerHTML = "Please Enter UserName...";
+             //   return;
+            } else {
+                document.getElementById("err1").innerHTML = "";
+            }
+            if (frmLogin.passWord.value == "") {
+                document.getElementById("err2").innerHTML = "Please Enter Password...";
+                return;
+            } else {
+                document.getElementById("err2").innerHTML = "";
+            }
+            var userName, passCode;
+            userName = frmLogin.userName.value;
+            passCode = frmLogin.passWord.value;
+
+            if (userName == "Subham" && passCode == "Chowdary") {
+                // alert("Correct");
+                window.open("http://www.google.com");
+            } else {
+                alert("Wrong Credentials...");
+            }
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form name="frmLogin">
+        <table border="3" align="center">
+            <tr>
+                <th colspan="2">
+                    Login Page
+                </th>
+            </tr>
+            <tr>
+                <th>User Name</th>
+                <td>
+                    <input type="text" name="userName" />
+                    <span id="err1" style="color:red;"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td>
+                    <input type="password" name="passWord" />
+                    <span id="err2" style="color:red;"></span>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <input type="button" value="Login" onclick="doLogin()" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="reset" value="Reset" />
+                </th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

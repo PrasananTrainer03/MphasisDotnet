@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        var questions = [
+            "1. C language implemented By",
+            "2. OOPS stands For",
+            "3. WWW standards for",
+            "4. HTTP stands for",
+            "5. Java is Object oriented (T/F)"
+        ]
+        var i = 0;
+        var count = questions.length;
+        function show() {
+            if (i == 0) {
+                document.getElementById("btnPrevious").style.display = "none";
+            } else {
+                document.getElementById("btnPrevious").style.display = "block";
+            }
+            if (i == count - 1) {
+                document.getElementById("btnNext").style.display = "none";
+            } else {
+                document.getElementById("btnNext").style.display = "block";
+            }
+            document.getElementById("question").innerHTML = questions[i];
+        }
+
+        function next() {
+            i++;
+            if (i == count) {
+                i = count - 1;
+                alert("No More Questions after this...");
+            }
+            show();
+        }
+
+        function previous() {
+            i--;
+            if (i < 0) {
+                i = 0;
+                alert("No More Questions Before this...");
+            }
+            show();
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="show()">
+    <p id="question">
+
+    </p><br /><br />
+              <div id="btnNext">
+                  <input type="button" onclick="next()" value="Next" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </div>
+    <div id="btnPrevious">
+        <input type="button" onclick="previous()" value="Previous" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+</body>
+</html>

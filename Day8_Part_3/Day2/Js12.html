@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        function show() {
+            var firstName, lastName, fullName;
+            firstName = frmData.firstName.value;
+            lastName = frmData.lastName.value;
+            fullName = firstName + " " + lastName;
+            frmData.fullName.value = fullName;
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form name="frmData">
+        <table border="3" align="center">
+            <tr>
+                <th colspan="2">
+                    Name Demo
+                </th>
+            </tr>
+            <tr>
+                <th>First Name</th>
+                <td>
+                    <input type="text" name="firstName" onblur="show()" />
+                </td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+               <td>
+                   <input type="text" name="lastName" onblur="show()" />
+               </td>
+            </tr>
+            <tr>
+                <th>Full Name</th>
+                <td>
+                    <input type="text" readonly name="fullName" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

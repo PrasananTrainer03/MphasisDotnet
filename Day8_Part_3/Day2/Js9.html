@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <script>
+        function show() {
+            var student = frmData.student.value;
+            document.getElementById("result").innerHTML = "Selected Name is  " + student;
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form name="frmData">
+       
+            Select Name :
+            <select id="student" name="student" onchange="show()">
+                <option value="Select">Select Choice</option>
+                <option value="001">India Phone</option>
+                <option value="Yashwant">Yashwanth G</option>
+                <option value="Amrut Tikone">Amruth</option>
+                <option value="Arka Mitra">Arka</option>
+                <option value="Naveen Puliveli">Naveen</option>
+            </select>
+
+            Country Code : 
+            <select name="countryCode">
+                <script>
+                    for (i = 0; i < 100; i++) {
+                        document.write('<option value="00' + i + '">' + '00' + i + '</option>');
+                    }
+                    </script>
+
+                            </select >
+                        <span id="result"></span>
+                   
+                    </form >
+</body >
+</html >
