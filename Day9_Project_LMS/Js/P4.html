@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        function show() {
+            var today = new Date();
+            var fullYear = today.getFullYear();
+            var future = new Date("March 1, " + fullYear);
+            var diff = future.getTime() - today.getTime();
+            // returns in milliseconds 
+            var days = Math.ceil(diff / (1000 * 60 * 60 * 24));
+            document.getElementById("result").innerHTML = days;
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="show()">
+    <span id="result"></span>
+</body>
+</html>

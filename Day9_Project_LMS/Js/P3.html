@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        function show() {
+            var result = "";
+            var obj = new Date();
+            var month = obj.getMonth();
+            month++;
+            result += "Today's Date is  " + obj.getDate() + "<br/>";
+            result += "Month is  " + month + "<br/>";
+            result += "Year is " + obj.getFullYear() + "<br/>";
+            result += "Hours  " + obj.getHours() + "<br/>";
+            result += "Minutes  " + obj.getMinutes() + "<br/>";
+            result += "Seconds  " + obj.getSeconds() + "<br/>";
+            document.getElementById("result").innerHTML = result;
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="show()">
+    <span id="result"></span>
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        function show() {
+            var result = "";
+            result += "Absolute Value is  " + Math.abs(-12) + "<br/>";
+            result += "N Power M value  " + Math.pow(2, 3) + "<br/>";
+            result += "Sqrt Value  " + Math.sqrt(49) + "<br/>";
+            result += "Ceiling Value  " + Math.ceil(12.0000001) + "<br/>";
+            result += "Floor Value  " + Math.floor(12.999999) + "<br/>";
+            document.getElementById("result").innerHTML = result;
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="show()">
+    <span id="result"></span>
+</body>
+</html>

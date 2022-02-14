@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        function show() {
+            var str = "Welcome to Javascript...From Mphasis dotnet Batch...";
+            var result = "";
+            result += "Length of given String is  " + str.length + "<br/>";
+            result += "First Occurrence of char 'o' " + str.indexOf('o') + "<br/>";
+            result += "Char at 5th position  " + str.charAt(5) + "<br/>";
+            result += "Upper Case String  " + str.toUpperCase() + "<br/>";
+            result += "Lower Case String  " + str.toLowerCase() + "<br/>";
+            result += "Replaced String is  " + str.replace("Javascript", "Jquery");
+            document.getElementById("result").innerHTML = result;
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="show()">
+    <span id="result"></span>
+</body>
+</html>
