@@ -1,0 +1,30 @@
+Create the Below Forms :
+_______________________
+
+Customer ID 
+
+Customer Name
+
+City
+
+State
+
+Mobile No : 
+
+All fields are mandetory after that print in Span tag
+
+
+Wallet : 
+________
+
+Wallet Id :
+
+Wallet type : DropDown(Paytm,Google,PhonePe)
+
+WalletAmount : 
+
+Customer ID : 
+
+All Fields are mandetory, 
+WalletAmount must be > 1000 rs. 
+and once you click on submit button, it has to print all in span 
