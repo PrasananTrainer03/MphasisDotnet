@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+        var Questions = new Array(
+            "1. The father of C,C++ & Unix is",
+            "2. The Open source among following is ",
+            "3. Pancake Sorting Algorithm and BASIC Interpreter was written by",
+            "4. Larry page and Sergei Brinn are Co-Founders of",
+            "5. The first computer to defeat Chess Grandmaster was"
+        );
+        NoOfQuestions = Questions.length;
+        QuestionNo = 0;
+        SelectedAnswer = 5;
+        isChoosed = false;
+        score = 0;
+        Answers = new Array(NoOfQuestions);
+        CorrectAnswers = new Array(NoOfQuestions);
+
+        for (var i = 0; i < NoOfQuestions; i++) {
+            Answers[i] = new Array(4);
+        }
+
+        Answers[0][0] = "Forouzan";
+        Answers[0][1] = "Dennis Ritchie";
+        Answers[0][2] = "Andrew Tenenbaum";
+        Answers[0][3] = "Dijkstra";
+        CorrectAnswers[0] = 2;
+
+
+        Answers[1][0] = "Windows XP";
+        Answers[1][1] = "Mac OS X";
+        Answers[1][2] = "Linux Ubuntu";
+        Answers[1][3] = "Sun Solaris";
+        CorrectAnswers[1] = 4;
+
+
+        Answers[2][0] = "Steve Jobs";
+        Answers[2][1] = "Steve William";
+        Answers[2][2] = "Bill Gates";
+        Answers[2][3] = "Jerry yang";
+        CorrectAnswers[2] = 3;
+
+
+        Answers[3][0] = "Yahoo";
+        Answers[3][1] = "Rediff";
+        Answers[3][2] = "Google";
+        Answers[3][3] = "Apple";
+        CorrectAnswers[3] = 3;
+
+
+        Answers[4][0] = "Chess Zeus";
+        Answers[4][1] = "Armageddon";
+        Answers[4][2] = "White Knight";
+        Answers[4][3] = "Deep Blue";
+        CorrectAnswers[4] = 4;
+
+
+        function load() {
+            document.getElementById("Opt1").checked = false;
+            document.getElementById("Opt2").checked = false;
+            document.getElementById("Opt3").checked = false;
+            document.getElementById("Opt4").checked = false;
+            document.getElementById("Question").innerHTML = Questions[QuestionNo];
+            document.getElementById("Option0").innerHTML = Answers[QuestionNo][0];
+            document.getElementById("Option1").innerHTML = Answers[QuestionNo][1];
+            document.getElementById("Option2").innerHTML = Answers[QuestionNo][2];
+            document.getElementById("Option3").innerHTML = Answers[QuestionNo][3];
+            SelectedAnswer = 5;
+            isChoosed = false;
+        }
+        function NextQuestion() {
+            if (isChoosed == false) {
+                alert("Please Select any answer first...");
+                return;
+            }
+            if (SelectedAnswer == CorrectAnswers[QuestionNo]) {
+                score++;
+            }
+            QuestionNo++;
+            if (QuestionNo >= NoOfQuestions) {
+                QuestionNo = NoOfQuestions-1;
+                alert("Exam Over...Your Score is  " +score);
+            }
+            load();
+        }
+        function AnswerChoosed(answer) {
+            SelectedAnswer = answer;
+            isChoosed = true;
+            //alert(SelectedAnswer);
+            //alert(isChoosed);
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="load()">
+    <p style="color: #33CCFF; font-family: 'DejaVu Sans'; font-size: 60px; font-weight: bold">Online Exam @ Mphasis Dotnet Batch</p>
+    <div style="background : none repeat scroll 0 0 #3366CC;border:5px solid gray;
+			    color : white; font-family : 'DejaVu Sans',Times,Serif;
+    font-weight : bold;
+    margin : 10px auto;
+    padding : 10px;
+    width : 400px;">
+        <br /><br />
+              <form name="ExamForm" id="inputForm1">
+                  <p id="Question">
+                      This is the question
+                  </p>
+                  <input type="radio" name="OptionR" id="Opt1" onclick="AnswerChoosed(1)" />
+                  <label id="Option0" name="Name1">1st Option</label><br />
+                  <input type="radio" name="OptionR" id="Opt2" onclick="AnswerChoosed(2)" />
+                  <label id="Option1">2nd Option</label><br />
+                  <input type="radio" name="OptionR" id="Opt3" onclick="AnswerChoosed(3)" />
+                  <label id="Option2">3rd Option</label><br />
+                  <input type="radio" name="OptionR" id="Opt4" onclick="AnswerChoosed(4)" />
+                  <label id="Option3">4th Option</label><br />
+                  <br />
+                  <br />
+                  <input type="button" value="Next" onclick="NextQuestion()" />
+              </form>
+    </div>
+</body>
+</html>
