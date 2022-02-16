@@ -1,0 +1,10 @@
+﻿a:link, a:visited {
+    display: block;
+    font-weight: bold;
+    color: blue;
+    background-color: orange;
+    width: 120px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
