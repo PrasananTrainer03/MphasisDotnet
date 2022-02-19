@@ -1,0 +1,35 @@
+<!-- <p>menu works!</p>
+<a [routerLink]="['first']">First</a> &nbsp;&nbsp;
+<a [routerLink]="['second']">Second</a> &nbsp;&nbsp;
+<a [routerLink]="['third']">Third</a> &nbsp;&nbsp;
+<a [routerLink]="['employ']">Employ</a> &nbsp;&nbsp;
+<a [routerLink]="['student']">Student</a> &nbsp;&nbsp;
+<a [routerLink]="['employDropDown']">Employ DropDown</a> &nbsp;&nbsp;
+<router-outlet name="data"></router-outlet> -->
+
+<p>
+    menu works!
+  </p>
+  <a [routerLink]="['/menu',{outlets: {'data': ['first']}}]"> First</a> 
+  <!-- <a [routerLink]="['first']">First</a>  -->
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a [routerLink]="['/menu',{outlets: {'data': ['second']}}]"> Second</a> 
+  <!-- <a [routerLink]="['second']">Second</a>  -->
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a [routerLink]="['/menu',{outlets: {'data': ['third']}}]"> Third</a> 
+  <!-- <a [routerLink]="['third']">Third</a>  -->
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a [routerLink]="['/menu',{outlets: {'data': ['calc']}}]"> Calc</a> 
+  <!-- <a [routerLink]="['calc']">Calc</a>  -->
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a [routerLink]="['/menu',{outlets: {'data': ['employ']}}]"> Employ</a> 
+  <!-- <a [routerLink]="['employ']">Employ</a>  -->
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a [routerLink]="['/menu',{outlets: {'data': ['employDropDown']}}]"> Employ Drop Down</a> 
+  <!-- <a [routerLink]="['employDropDown']">Employ List</a>  -->
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a [routerLink]="['/menu',{outlets: {'data': ['event']}}]"> Event</a> 
+  <!-- <a [routerLink]="['event']">Event</a>  -->
+  
+  <hr/>
+  <router-outlet name='data'></router-outlet>

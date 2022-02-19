@@ -1,0 +1,9 @@
+<p>student-dropdown works!</p>
+<select [(ngModel)]="firstName">
+    <option *ngFor="let e of students" value={{e.firstName}}>
+        {{e.lastName}}
+    </option>
+</select>
+<p>
+    Selected Name is : <b>{{firstName}}</b>
+</p>

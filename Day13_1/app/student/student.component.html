@@ -1,0 +1,17 @@
+<p>student works!</p>
+<table border="3">
+    <tr>
+      <th>Student No</th>
+      <th>Student fName</th>
+      <th>Student lName</th>
+      <th>city</th>
+      <th>cgpa</th>
+    </tr>
+    <tr *ngFor="let e of students">
+        <td> {{e.sno}}</td>
+        <td> {{e.firstName}}</td>
+        <td> {{e.lastName}}</td>
+        <td> {{e.city}}</td>
+        <td> {{e.cgpa}}</td>
+    </tr>
+  </table>
