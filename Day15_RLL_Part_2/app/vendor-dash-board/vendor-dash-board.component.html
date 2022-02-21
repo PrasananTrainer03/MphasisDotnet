@@ -1,0 +1,8 @@
+<p>vendor-dash-board works!</p>
+
+
+<a [routerLink]="['/vendorDashBoard',{outlets: {'mphasis': ['showVendor']}}]"> Show Vendor Info</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/vendorDashBoard',{outlets: {'mphasis': ['vendorOrders']}}]"> Show Vendor Orders</a> 
+<a [routerLink]="['/vendorDashBoard',{outlets: {'mphasis': ['vendorPending']}}]"> Vendor Pending Orders</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<router-outlet name="mphasis"></router-outlet>

@@ -1,0 +1,23 @@
+<!-- <p>customer-dash-board works!</p>
+Customer Id : {{customer.customerid}} <br/> 
+Customer Name : {{customer.customername}} <br/>
+Customer City : {{customer.customercity}} <br/> 
+Customer State : {{customer.customerstate}} <br/>
+Customer Email : {{customer.customeremail}} <br/> 
+Customer Mobile : {{customer.customermobile}} <br/>
+<hr/>
+<br/> -->
+<a [routerLink]="['/custDashBoard',{outlets: {'mphasis': ['showRestaurant']}}]"> Show Restaurant</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- <a [routerLink]="['ShowRestaurant']">Show Restaurant</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!-- <a [routerLink]="['customerOrders']">Customer Orders</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['customerPendingOrders']">Customer Pending Orders</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['addCustomer']">Add Customer</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!-- <a [routerLink]="['placeOrder']">Place Order</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<a [routerLink]="['/custDashBoard',{outlets: {'mphasis': ['showCustomer']}}]"> Show All Customer</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/custDashBoard',{outlets: {'mphasis': ['showCustomerWallet']}}]"> Show Customer Wallet</a> 
+<a [routerLink]="['/custDashBoard',{outlets: {'mphasis': ['placeOrder']}}]"> Place Order</a> 
+
+<!-- <a [routerLink]="['showAllCustomers']">Show All Customers</a>  -->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<router-outlet name="mphasis"></router-outlet>
