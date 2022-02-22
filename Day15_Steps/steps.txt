@@ -1,0 +1,120 @@
+Shared Model Driven/Reactive Example 
+
+-> Please perform 
+
+EmployReactive
+CustomerReactive
+
+Then you have 4 forms Login, EmployForm, EmployReactive, CustomerForm, CustomerReactive
+
+leave login form..
+
+For 4, apply Routing  -> Case 1
+
+Make Login Default, once login sucesss go to mennu -> Case 2
+
+Note : 
+
+For project before start add 
+
+ReactiveFormsModule in imports section of app.module.ts file. 
+
+
+these 4 forms, you need to apply routing. 
+
+We see services part. 
+
+Angular Services
+HTTP Services 
+
+asraon@bankofbaroda.co.in
+
+
+
+
+Angular Http Services allows you to extract data from existing HTTP Services, 
+
+as HTTP is a stateless protocol, and contains data in that. That data needs to be  binded to angular forms.
+
+
+To Do this, 
+after creating project, 
+
+in app.module.ts file
+
+Import 
+
+HttpClientModule
+
+How to capture the service data. 
+
+command prompt give
+
+npm install rxjs-compat --save
+
+
+
+*** Service Result is coming in JSON format, we need to convert JSON result to Class objects format ***
+
+*** We need to capture service promise values ***
+
+What is promise, 
+
+Once you send any request for a service we have 2 possible outputs.
+
+resolve -> If the service request served successfully, then it comes with resolve
+reject  -> If the service has an error, then it comes with reject.
+
+You can capture the values, by using Observables. 
+
+Observables can store more than one value over the time, 
+
+They work asynchronously
+
+They can be cancellable. 
+
+Observables are coming from reactjs framework, as we need to install
+
+npm install rxjs-compat --save 
+
+
+
+<p>user works!</p>
+<table border="3">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>UserName</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Website</th>
+    </tr>
+    <tr *ngFor="let u of users">
+        <td>{{u.id}} </td>
+        <td>{{u.name}} </td>
+        <td>{{u.username}} </td>
+        <td>{{u.email}} </td>
+        <td>{{u.phone}} </td>
+        <td>{{u.website}} </td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+showUser() : Observable<User[]> 
+{
+   return this._http.get<User[]>("https://jsonplaceholder.typicode.com/users");
+}
