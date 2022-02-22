@@ -1,0 +1,41 @@
+<p>employ-reactive works!</p>
+<form [formGroup]="employForm" (ngSubmit)="show()">
+    Employ No : 
+    <input formControlName="empno">
+    <div style="color:red;" *ngIf="employForm.get('empno').invalid 
+                 && isValid==false"> 
+              Employ No required. 
+           </div>
+    <br/><br/>
+    Employ Name : 
+    <input formControlName="name">
+    <div style="color:red;" *ngIf="employForm.get('name').invalid 
+                 && isValid==false"> 
+              Employ Name required. 
+           </div>
+    <br/><br/>
+    Department : 
+    <input formControlName="dept">
+    <div style="color:red;" *ngIf="employForm.get('dept').invalid 
+                 && isValid==false"> 
+              Employ Department required. 
+           </div>
+    <br/><br/>
+    Designation : 
+    <input formControlName="desig">
+    <div style="color:red;" *ngIf="employForm.get('desig').invalid 
+                 && isValid==false"> 
+              Employ Designation required. 
+           </div>
+    <br/><br/>
+    Employ Salary : 
+    <input formControlName="basic">
+    <div style="color:red;" *ngIf="employForm.get('basic').invalid 
+                 && isValid==false"> 
+              Employ Basic required. 
+           </div>
+    <br/><br/>
+    <input type="submit" value="Show" />
+</form>
+
+{{msg}}
