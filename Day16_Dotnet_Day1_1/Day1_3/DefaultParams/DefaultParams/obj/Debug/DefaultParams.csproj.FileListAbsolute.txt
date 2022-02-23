@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1_3\DefaultParams\DefaultParams\bin\Debug\DefaultParams.exe.config
+C:\dotnet_mphasis\Day1_3\DefaultParams\DefaultParams\bin\Debug\DefaultParams.exe
+C:\dotnet_mphasis\Day1_3\DefaultParams\DefaultParams\bin\Debug\DefaultParams.pdb
+C:\dotnet_mphasis\Day1_3\DefaultParams\DefaultParams\obj\Debug\DefaultParams.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1_3\DefaultParams\DefaultParams\obj\Debug\DefaultParams.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1_3\DefaultParams\DefaultParams\obj\Debug\DefaultParams.exe
+C:\dotnet_mphasis\Day1_3\DefaultParams\DefaultParams\obj\Debug\DefaultParams.pdb

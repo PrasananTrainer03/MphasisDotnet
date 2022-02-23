@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1_3\StDemo\StDemo\bin\Debug\StDemo.exe.config
+C:\dotnet_mphasis\Day1_3\StDemo\StDemo\bin\Debug\StDemo.exe
+C:\dotnet_mphasis\Day1_3\StDemo\StDemo\bin\Debug\StDemo.pdb
+C:\dotnet_mphasis\Day1_3\StDemo\StDemo\obj\Debug\StDemo.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1_3\StDemo\StDemo\obj\Debug\StDemo.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1_3\StDemo\StDemo\obj\Debug\StDemo.exe
+C:\dotnet_mphasis\Day1_3\StDemo\StDemo\obj\Debug\StDemo.pdb

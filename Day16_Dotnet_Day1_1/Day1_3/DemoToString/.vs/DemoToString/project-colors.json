@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "33eaf1ec-fc69-4e32-afde-368b0c05e053": {
+      "ProjectGuid": "33eaf1ec-fc69-4e32-afde-368b0c05e053",
+      "DisplayName": "DemoToString",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

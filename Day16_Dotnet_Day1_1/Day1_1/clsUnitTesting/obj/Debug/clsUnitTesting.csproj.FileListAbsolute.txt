@@ -1,0 +1,12 @@
+C:\dotnet_mphasis\Day1_1\clsUnitTesting\bin\Debug\clsUnitTesting.dll
+C:\dotnet_mphasis\Day1_1\clsUnitTesting\bin\Debug\clsUnitTesting.pdb
+C:\dotnet_mphasis\Day1_1\clsUnitTesting\obj\Debug\clsUnitTesting.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1_1\clsUnitTesting\obj\Debug\clsUnitTesting.dll
+C:\dotnet_mphasis\Day1_1\clsUnitTesting\obj\Debug\clsUnitTesting.pdb
+C:\dotnet_mphasis\Day1_1\clsUnitTesting\obj\Debug\clsUnitTesting.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\Day1_1\clsUnitTesting\bin\Debug\nunit.framework.dll
+C:\dotnet_mphasis\Day1_1\clsUnitTesting\bin\Debug\UnitTesting.exe
+C:\dotnet_mphasis\Day1_1\clsUnitTesting\bin\Debug\nunit.framework.xml
+C:\dotnet_mphasis\Day1_1\clsUnitTesting\bin\Debug\UnitTesting.pdb
+C:\dotnet_mphasis\Day1_1\clsUnitTesting\bin\Debug\UnitTesting.exe.config
+C:\dotnet_mphasis\Day1_1\clsUnitTesting\obj\Debug\clsUnitTesting.csproj.CopyComplete

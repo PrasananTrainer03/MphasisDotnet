@@ -288,7 +288,53 @@ a[4]=52;
             }
 
 
-	    
+	    In the above loop, at first i points to the first element in array a,
+after processing first element, it checks next element is there or not by using
+HasMoreElements(), if HashMoreElements() returns true, it moves to the next element, by using
+NextElement(). It repeats as soon as HasMoreElements() returns false. 
+
+There are 2 types of memories as 
+
+	(i) STACK
+
+	(ii) HEAP
+
+Value types will be stored in stack memory, and reference types will be stored in Heap memory. 
+
+string are immutable, means once they are assigned we cannot change the value by using any string methods of its own. 
+
+
+In Dotnet, the top level class is 
+
+System.Object
+
+it contains various methods as
+
+	1) GetHashCode() : Used to display memory location address number. 
+
+	2) ToString() : This method will be called automatically once you print, the object (Any member variables of the class to be printed, then please write the code in ToString()) 
+
+	3) Equals()
+
+	4) GetType()
+
+
+Method Overloading : The concept of using the same method name w.r.t. Different data types
+or different parameters known as method overloading. 
+
+Here, the method name must be same, but no.of parameters or type of parameters we are using here are different. 
+
+
+void show(int x) {
+...
+...
+...
+}
+
+show();
+show(12);
+show(12,5);
+show(12,55,23);
 
 
 

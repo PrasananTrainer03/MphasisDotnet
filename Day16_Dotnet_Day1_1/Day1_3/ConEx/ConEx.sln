@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConEx", "ConEx\ConEx.csproj", "{29898B21-FBF0-4B9F-9CB5-FDA439874603}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29898B21-FBF0-4B9F-9CB5-FDA439874603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29898B21-FBF0-4B9F-9CB5-FDA439874603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29898B21-FBF0-4B9F-9CB5-FDA439874603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29898B21-FBF0-4B9F-9CB5-FDA439874603}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37A7CAEA-96CB-4821-A6C5-06A1B31883F3}
+	EndGlobalSection
+EndGlobal

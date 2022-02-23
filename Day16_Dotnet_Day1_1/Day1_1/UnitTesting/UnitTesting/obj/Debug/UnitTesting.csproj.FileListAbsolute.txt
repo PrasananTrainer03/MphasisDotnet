@@ -1,0 +1,14 @@
+C:\dotnet_mphasis\Day1_1\UnitTesting\UnitTesting\obj\Debug\UnitTesting.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\Day1_1\UnitTesting\UnitTesting\obj\Debug\UnitTesting.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1_1\UnitTesting\UnitTesting\obj\Debug\UnitTesting.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1_1\UnitTesting\UnitTesting\bin\Debug\NUnit3.TestAdapter.dll
+C:\dotnet_mphasis\Day1_1\UnitTesting\UnitTesting\bin\Debug\NUnit3.TestAdapter.pdb
+C:\dotnet_mphasis\Day1_1\UnitTesting\UnitTesting\bin\Debug\nunit.engine.dll
+C:\dotnet_mphasis\Day1_1\UnitTesting\UnitTesting\bin\Debug\nunit.engine.api.dll
+C:\dotnet_mphasis\Day1_1\UnitTesting\UnitTesting\bin\Debug\nunit.engine.core.dll
+C:\dotnet_mphasis\Day1_1\UnitTesting\UnitTesting\bin\Debug\testcentric.engine.metadata.dll
+C:\dotnet_mphasis\Day1_1\UnitTesting\UnitTesting\bin\Debug\UnitTesting.exe.config
+C:\dotnet_mphasis\Day1_1\UnitTesting\UnitTesting\bin\Debug\UnitTesting.exe
+C:\dotnet_mphasis\Day1_1\UnitTesting\UnitTesting\bin\Debug\UnitTesting.pdb
+C:\dotnet_mphasis\Day1_1\UnitTesting\UnitTesting\obj\Debug\UnitTesting.exe
+C:\dotnet_mphasis\Day1_1\UnitTesting\UnitTesting\obj\Debug\UnitTesting.pdb

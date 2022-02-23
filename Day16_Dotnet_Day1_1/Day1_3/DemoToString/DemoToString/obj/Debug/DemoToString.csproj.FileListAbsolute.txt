@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1_3\DemoToString\DemoToString\bin\Debug\DemoToString.exe.config
+C:\dotnet_mphasis\Day1_3\DemoToString\DemoToString\bin\Debug\DemoToString.exe
+C:\dotnet_mphasis\Day1_3\DemoToString\DemoToString\bin\Debug\DemoToString.pdb
+C:\dotnet_mphasis\Day1_3\DemoToString\DemoToString\obj\Debug\DemoToString.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1_3\DemoToString\DemoToString\obj\Debug\DemoToString.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1_3\DemoToString\DemoToString\obj\Debug\DemoToString.exe
+C:\dotnet_mphasis\Day1_3\DemoToString\DemoToString\obj\Debug\DemoToString.pdb

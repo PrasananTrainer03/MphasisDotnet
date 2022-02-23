@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1_3\AttendanceDemo\AttendanceDemo\bin\Debug\AttendanceDemo.exe.config
+C:\dotnet_mphasis\Day1_3\AttendanceDemo\AttendanceDemo\bin\Debug\AttendanceDemo.exe
+C:\dotnet_mphasis\Day1_3\AttendanceDemo\AttendanceDemo\bin\Debug\AttendanceDemo.pdb
+C:\dotnet_mphasis\Day1_3\AttendanceDemo\AttendanceDemo\obj\Debug\AttendanceDemo.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1_3\AttendanceDemo\AttendanceDemo\obj\Debug\AttendanceDemo.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1_3\AttendanceDemo\AttendanceDemo\obj\Debug\AttendanceDemo.exe
+C:\dotnet_mphasis\Day1_3\AttendanceDemo\AttendanceDemo\obj\Debug\AttendanceDemo.pdb

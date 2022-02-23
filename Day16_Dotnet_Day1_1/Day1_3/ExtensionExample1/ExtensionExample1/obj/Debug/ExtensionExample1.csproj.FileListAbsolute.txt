@@ -1,0 +1,8 @@
+C:\dotnet_mphasis\Day1_3\ExtensionExample1\ExtensionExample1\bin\Debug\ExtensionExample1.exe.config
+C:\dotnet_mphasis\Day1_3\ExtensionExample1\ExtensionExample1\bin\Debug\ExtensionExample1.exe
+C:\dotnet_mphasis\Day1_3\ExtensionExample1\ExtensionExample1\bin\Debug\ExtensionExample1.pdb
+C:\dotnet_mphasis\Day1_3\ExtensionExample1\ExtensionExample1\obj\Debug\ExtensionExample1.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1_3\ExtensionExample1\ExtensionExample1\obj\Debug\ExtensionExample1.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1_3\ExtensionExample1\ExtensionExample1\obj\Debug\ExtensionExample1.exe
+C:\dotnet_mphasis\Day1_3\ExtensionExample1\ExtensionExample1\obj\Debug\ExtensionExample1.pdb
+C:\dotnet_mphasis\Day1_3\ExtensionExample1\ExtensionExample1\obj\Debug\ExtensionExample1.csproj.AssemblyReference.cache

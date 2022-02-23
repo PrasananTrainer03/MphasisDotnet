@@ -1,0 +1,8 @@
+C:\dotnet_mphasis\Day1_3\FactRef\FactRef\bin\Debug\FactRef.exe.config
+C:\dotnet_mphasis\Day1_3\FactRef\FactRef\bin\Debug\FactRef.exe
+C:\dotnet_mphasis\Day1_3\FactRef\FactRef\bin\Debug\FactRef.pdb
+C:\dotnet_mphasis\Day1_3\FactRef\FactRef\obj\Debug\FactRef.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1_3\FactRef\FactRef\obj\Debug\FactRef.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1_3\FactRef\FactRef\obj\Debug\FactRef.exe
+C:\dotnet_mphasis\Day1_3\FactRef\FactRef\obj\Debug\FactRef.pdb
+C:\dotnet_mphasis\Day1_3\FactRef\FactRef\obj\Debug\FactRef.csproj.AssemblyReference.cache

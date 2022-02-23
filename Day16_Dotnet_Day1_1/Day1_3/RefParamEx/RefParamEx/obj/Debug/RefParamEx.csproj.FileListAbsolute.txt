@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1_3\RefParamEx\RefParamEx\bin\Debug\RefParamEx.exe.config
+C:\dotnet_mphasis\Day1_3\RefParamEx\RefParamEx\bin\Debug\RefParamEx.exe
+C:\dotnet_mphasis\Day1_3\RefParamEx\RefParamEx\bin\Debug\RefParamEx.pdb
+C:\dotnet_mphasis\Day1_3\RefParamEx\RefParamEx\obj\Debug\RefParamEx.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1_3\RefParamEx\RefParamEx\obj\Debug\RefParamEx.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1_3\RefParamEx\RefParamEx\obj\Debug\RefParamEx.exe
+C:\dotnet_mphasis\Day1_3\RefParamEx\RefParamEx\obj\Debug\RefParamEx.pdb

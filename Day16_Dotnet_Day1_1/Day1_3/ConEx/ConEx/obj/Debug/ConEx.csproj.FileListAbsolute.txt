@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1_3\ConEx\ConEx\bin\Debug\ConEx.exe.config
+C:\dotnet_mphasis\Day1_3\ConEx\ConEx\bin\Debug\ConEx.exe
+C:\dotnet_mphasis\Day1_3\ConEx\ConEx\bin\Debug\ConEx.pdb
+C:\dotnet_mphasis\Day1_3\ConEx\ConEx\obj\Debug\ConEx.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1_3\ConEx\ConEx\obj\Debug\ConEx.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1_3\ConEx\ConEx\obj\Debug\ConEx.exe
+C:\dotnet_mphasis\Day1_3\ConEx\ConEx\obj\Debug\ConEx.pdb
