@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1\EvenOddEx\EvenOddEx\bin\Debug\EvenOddEx.exe.config
+C:\dotnet_mphasis\Day1\EvenOddEx\EvenOddEx\bin\Debug\EvenOddEx.exe
+C:\dotnet_mphasis\Day1\EvenOddEx\EvenOddEx\bin\Debug\EvenOddEx.pdb
+C:\dotnet_mphasis\Day1\EvenOddEx\EvenOddEx\obj\Debug\EvenOddEx.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1\EvenOddEx\EvenOddEx\obj\Debug\EvenOddEx.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1\EvenOddEx\EvenOddEx\obj\Debug\EvenOddEx.exe
+C:\dotnet_mphasis\Day1\EvenOddEx\EvenOddEx\obj\Debug\EvenOddEx.pdb

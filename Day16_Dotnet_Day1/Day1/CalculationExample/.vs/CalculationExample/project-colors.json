@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fade1a57-461a-40b1-8a26-51574d4b191b": {
+      "ProjectGuid": "fade1a57-461a-40b1-8a26-51574d4b191b",
+      "DisplayName": "CalculationExample",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

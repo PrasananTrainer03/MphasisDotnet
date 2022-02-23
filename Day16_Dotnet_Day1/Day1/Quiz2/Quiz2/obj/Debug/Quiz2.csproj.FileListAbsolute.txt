@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1\Quiz2\Quiz2\bin\Debug\Quiz2.exe.config
+C:\dotnet_mphasis\Day1\Quiz2\Quiz2\bin\Debug\Quiz2.exe
+C:\dotnet_mphasis\Day1\Quiz2\Quiz2\bin\Debug\Quiz2.pdb
+C:\dotnet_mphasis\Day1\Quiz2\Quiz2\obj\Debug\Quiz2.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1\Quiz2\Quiz2\obj\Debug\Quiz2.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1\Quiz2\Quiz2\obj\Debug\Quiz2.exe
+C:\dotnet_mphasis\Day1\Quiz2\Quiz2\obj\Debug\Quiz2.pdb

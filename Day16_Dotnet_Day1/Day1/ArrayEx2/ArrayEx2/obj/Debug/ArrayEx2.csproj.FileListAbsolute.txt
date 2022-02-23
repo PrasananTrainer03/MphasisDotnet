@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1\ArrayEx2\ArrayEx2\bin\Debug\ArrayEx2.exe.config
+C:\dotnet_mphasis\Day1\ArrayEx2\ArrayEx2\bin\Debug\ArrayEx2.exe
+C:\dotnet_mphasis\Day1\ArrayEx2\ArrayEx2\bin\Debug\ArrayEx2.pdb
+C:\dotnet_mphasis\Day1\ArrayEx2\ArrayEx2\obj\Debug\ArrayEx2.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1\ArrayEx2\ArrayEx2\obj\Debug\ArrayEx2.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1\ArrayEx2\ArrayEx2\obj\Debug\ArrayEx2.exe
+C:\dotnet_mphasis\Day1\ArrayEx2\ArrayEx2\obj\Debug\ArrayEx2.pdb

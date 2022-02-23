@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1\Factorail\Factorail\bin\Debug\Factorail.exe.config
+C:\dotnet_mphasis\Day1\Factorail\Factorail\bin\Debug\Factorail.exe
+C:\dotnet_mphasis\Day1\Factorail\Factorail\bin\Debug\Factorail.pdb
+C:\dotnet_mphasis\Day1\Factorail\Factorail\obj\Debug\Factorail.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1\Factorail\Factorail\obj\Debug\Factorail.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1\Factorail\Factorail\obj\Debug\Factorail.exe
+C:\dotnet_mphasis\Day1\Factorail\Factorail\obj\Debug\Factorail.pdb

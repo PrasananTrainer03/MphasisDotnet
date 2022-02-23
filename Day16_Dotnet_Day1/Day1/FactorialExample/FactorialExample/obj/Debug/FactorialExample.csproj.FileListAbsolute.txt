@@ -1,0 +1,8 @@
+C:\dotnet_mphasis\Day1\FactorialExample\FactorialExample\bin\Debug\FactorialExample.exe.config
+C:\dotnet_mphasis\Day1\FactorialExample\FactorialExample\bin\Debug\FactorialExample.exe
+C:\dotnet_mphasis\Day1\FactorialExample\FactorialExample\bin\Debug\FactorialExample.pdb
+C:\dotnet_mphasis\Day1\FactorialExample\FactorialExample\obj\Debug\FactorialExample.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\Day1\FactorialExample\FactorialExample\obj\Debug\FactorialExample.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1\FactorialExample\FactorialExample\obj\Debug\FactorialExample.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1\FactorialExample\FactorialExample\obj\Debug\FactorialExample.exe
+C:\dotnet_mphasis\Day1\FactorialExample\FactorialExample\obj\Debug\FactorialExample.pdb

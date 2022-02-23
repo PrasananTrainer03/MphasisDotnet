@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1\Max3\Max3\bin\Debug\Max3.exe.config
+C:\dotnet_mphasis\Day1\Max3\Max3\bin\Debug\Max3.exe
+C:\dotnet_mphasis\Day1\Max3\Max3\bin\Debug\Max3.pdb
+C:\dotnet_mphasis\Day1\Max3\Max3\obj\Debug\Max3.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1\Max3\Max3\obj\Debug\Max3.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1\Max3\Max3\obj\Debug\Max3.exe
+C:\dotnet_mphasis\Day1\Max3\Max3\obj\Debug\Max3.pdb

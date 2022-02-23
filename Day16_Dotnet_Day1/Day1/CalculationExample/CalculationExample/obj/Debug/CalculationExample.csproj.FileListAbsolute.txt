@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1\CalculationExample\CalculationExample\bin\Debug\CalculationExample.exe.config
+C:\dotnet_mphasis\Day1\CalculationExample\CalculationExample\bin\Debug\CalculationExample.exe
+C:\dotnet_mphasis\Day1\CalculationExample\CalculationExample\bin\Debug\CalculationExample.pdb
+C:\dotnet_mphasis\Day1\CalculationExample\CalculationExample\obj\Debug\CalculationExample.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1\CalculationExample\CalculationExample\obj\Debug\CalculationExample.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1\CalculationExample\CalculationExample\obj\Debug\CalculationExample.exe
+C:\dotnet_mphasis\Day1\CalculationExample\CalculationExample\obj\Debug\CalculationExample.pdb

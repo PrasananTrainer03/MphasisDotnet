@@ -1,0 +1,8 @@
+C:\dotnet_mphasis\Day1\DemoApp\DemoApp\bin\Debug\DemoApp.exe.config
+C:\dotnet_mphasis\Day1\DemoApp\DemoApp\bin\Debug\DemoApp.exe
+C:\dotnet_mphasis\Day1\DemoApp\DemoApp\bin\Debug\DemoApp.pdb
+C:\dotnet_mphasis\Day1\DemoApp\DemoApp\obj\Debug\DemoApp.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\Day1\DemoApp\DemoApp\obj\Debug\DemoApp.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1\DemoApp\DemoApp\obj\Debug\DemoApp.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1\DemoApp\DemoApp\obj\Debug\DemoApp.exe
+C:\dotnet_mphasis\Day1\DemoApp\DemoApp\obj\Debug\DemoApp.pdb

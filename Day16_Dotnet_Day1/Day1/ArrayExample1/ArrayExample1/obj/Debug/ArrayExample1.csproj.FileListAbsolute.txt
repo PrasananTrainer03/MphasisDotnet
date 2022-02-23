@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1\ArrayExample1\ArrayExample1\bin\Debug\ArrayExample1.exe.config
+C:\dotnet_mphasis\Day1\ArrayExample1\ArrayExample1\bin\Debug\ArrayExample1.exe
+C:\dotnet_mphasis\Day1\ArrayExample1\ArrayExample1\bin\Debug\ArrayExample1.pdb
+C:\dotnet_mphasis\Day1\ArrayExample1\ArrayExample1\obj\Debug\ArrayExample1.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1\ArrayExample1\ArrayExample1\obj\Debug\ArrayExample1.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1\ArrayExample1\ArrayExample1\obj\Debug\ArrayExample1.exe
+C:\dotnet_mphasis\Day1\ArrayExample1\ArrayExample1\obj\Debug\ArrayExample1.pdb

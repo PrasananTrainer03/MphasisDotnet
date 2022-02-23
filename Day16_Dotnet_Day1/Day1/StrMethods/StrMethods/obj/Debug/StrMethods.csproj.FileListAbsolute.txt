@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1\StrMethods\StrMethods\bin\Debug\StrMethods.exe.config
+C:\dotnet_mphasis\Day1\StrMethods\StrMethods\bin\Debug\StrMethods.exe
+C:\dotnet_mphasis\Day1\StrMethods\StrMethods\bin\Debug\StrMethods.pdb
+C:\dotnet_mphasis\Day1\StrMethods\StrMethods\obj\Debug\StrMethods.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1\StrMethods\StrMethods\obj\Debug\StrMethods.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1\StrMethods\StrMethods\obj\Debug\StrMethods.exe
+C:\dotnet_mphasis\Day1\StrMethods\StrMethods\obj\Debug\StrMethods.pdb

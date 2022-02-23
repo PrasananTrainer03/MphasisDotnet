@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1\CtoFExample\CtoFExample\bin\Debug\CtoFExample.exe.config
+C:\dotnet_mphasis\Day1\CtoFExample\CtoFExample\bin\Debug\CtoFExample.exe
+C:\dotnet_mphasis\Day1\CtoFExample\CtoFExample\bin\Debug\CtoFExample.pdb
+C:\dotnet_mphasis\Day1\CtoFExample\CtoFExample\obj\Debug\CtoFExample.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1\CtoFExample\CtoFExample\obj\Debug\CtoFExample.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1\CtoFExample\CtoFExample\obj\Debug\CtoFExample.exe
+C:\dotnet_mphasis\Day1\CtoFExample\CtoFExample\obj\Debug\CtoFExample.pdb

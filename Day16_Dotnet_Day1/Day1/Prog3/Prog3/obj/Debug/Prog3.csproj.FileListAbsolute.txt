@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1\Prog3\Prog3\bin\Debug\Prog3.exe.config
+C:\dotnet_mphasis\Day1\Prog3\Prog3\bin\Debug\Prog3.exe
+C:\dotnet_mphasis\Day1\Prog3\Prog3\bin\Debug\Prog3.pdb
+C:\dotnet_mphasis\Day1\Prog3\Prog3\obj\Debug\Prog3.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1\Prog3\Prog3\obj\Debug\Prog3.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1\Prog3\Prog3\obj\Debug\Prog3.exe
+C:\dotnet_mphasis\Day1\Prog3\Prog3\obj\Debug\Prog3.pdb

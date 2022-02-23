@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day1\PosNegEx\PosNegEx\bin\Debug\PosNegEx.exe.config
+C:\dotnet_mphasis\Day1\PosNegEx\PosNegEx\bin\Debug\PosNegEx.exe
+C:\dotnet_mphasis\Day1\PosNegEx\PosNegEx\bin\Debug\PosNegEx.pdb
+C:\dotnet_mphasis\Day1\PosNegEx\PosNegEx\obj\Debug\PosNegEx.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day1\PosNegEx\PosNegEx\obj\Debug\PosNegEx.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day1\PosNegEx\PosNegEx\obj\Debug\PosNegEx.exe
+C:\dotnet_mphasis\Day1\PosNegEx\PosNegEx\obj\Debug\PosNegEx.pdb
