@@ -1,0 +1,83 @@
+Boxing and Unboxing : 
+
+The concept of converting value types to reference type known as boxing, 
+and reference type to value type known as unboxing. 
+
+object is type that which can be used for boxing and unboxing. 
+
+int a;
+
+a=12;
+a=12.5
+a="Hello"
+
+object a;
+a=12;
+a=12.5;
+a="Hello"
+
+Once it is in object format, we cannot perform any operations. As object is a common container of data. 
+
+static methods : 
+________________
+
+These are the methods, that which are to be called by using object name. These methods cannot be called by using Obejct Name.
+
+Best example for static methods
+
+Console.WriteLine()
+
+Console.ReadLine()
+
+static variables :
+
+These are the variables, that which retains values, irrespective of type of object. 
+
+
+Inheritance : The concept of deriving a new class from already existing class, known as inheritance, the class which derived known as derived class, the class from which its derived known as base class. Through inheritance, we can reduce the size of the program. 
+
+class First {
+...
+...
+...
+}
+
+class Second : First {
+...
+...
+...
+}
+
+Once you create an object to Second class, you can access all public/protected and internal members of First class. 
+
+Base keyword : if you want to pass values from derived class to base class, then we need the help of 
+base keyword.  It has 2 forms as 
+
+	(i) base as a keyword
+
+	(ii) base as a constrcutor
+
+Abstract Class : A class that which can be created, but not implemented and instantiated known as Abstract class. Abstract class contains abstract and non-abstract methods, only abstract methods needs to be overrided mandetorily by the derived class.
+
+you cannot create an object to abstract class. 
+
+Interfaces : 
+
+C# Does not support the concept of multiple inheritance, to achieve this we need the help of interfaces. 
+
+An interface contains method declarations, and the implementation can be done in the corresponding class, 
+you can add more than one interface to the particular class.
+
+Difference between interface and abstract class
+_________________________________________________
+
+
+	(i) An abstract class contains both abstract and non-abstract methods, where interface contains
+		only abstract methods. {upto c#7.3, c#8 we can implement}
+
+	(ii) Interface methods are public and abstract by default.
+
+	(iii) Multiple Inheritance, can be achieved by using interfaces. 
+
+	(iii) An interface can be called from anywhere to anywhere. 
+
