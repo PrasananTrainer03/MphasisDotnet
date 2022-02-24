@@ -1,0 +1,8 @@
+C:\dotnet_mphasis\Day2\BoxingDemo\BoxingDemo\bin\Debug\BoxingDemo.exe.config
+C:\dotnet_mphasis\Day2\BoxingDemo\BoxingDemo\bin\Debug\BoxingDemo.exe
+C:\dotnet_mphasis\Day2\BoxingDemo\BoxingDemo\bin\Debug\BoxingDemo.pdb
+C:\dotnet_mphasis\Day2\BoxingDemo\BoxingDemo\obj\Debug\BoxingDemo.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\Day2\BoxingDemo\BoxingDemo\obj\Debug\BoxingDemo.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day2\BoxingDemo\BoxingDemo\obj\Debug\BoxingDemo.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day2\BoxingDemo\BoxingDemo\obj\Debug\BoxingDemo.exe
+C:\dotnet_mphasis\Day2\BoxingDemo\BoxingDemo\obj\Debug\BoxingDemo.pdb

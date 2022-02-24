@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day2\BoxRun\BoxRun\bin\Debug\BoxRun.exe.config
+C:\dotnet_mphasis\Day2\BoxRun\BoxRun\bin\Debug\BoxRun.exe
+C:\dotnet_mphasis\Day2\BoxRun\BoxRun\bin\Debug\BoxRun.pdb
+C:\dotnet_mphasis\Day2\BoxRun\BoxRun\obj\Debug\BoxRun.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day2\BoxRun\BoxRun\obj\Debug\BoxRun.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day2\BoxRun\BoxRun\obj\Debug\BoxRun.exe
+C:\dotnet_mphasis\Day2\BoxRun\BoxRun\obj\Debug\BoxRun.pdb

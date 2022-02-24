@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day2\InterfaceExample\InterfaceExample\bin\Debug\InterfaceExample.exe.config
+C:\dotnet_mphasis\Day2\InterfaceExample\InterfaceExample\bin\Debug\InterfaceExample.exe
+C:\dotnet_mphasis\Day2\InterfaceExample\InterfaceExample\bin\Debug\InterfaceExample.pdb
+C:\dotnet_mphasis\Day2\InterfaceExample\InterfaceExample\obj\Debug\InterfaceExample.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day2\InterfaceExample\InterfaceExample\obj\Debug\InterfaceExample.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day2\InterfaceExample\InterfaceExample\obj\Debug\InterfaceExample.exe
+C:\dotnet_mphasis\Day2\InterfaceExample\InterfaceExample\obj\Debug\InterfaceExample.pdb

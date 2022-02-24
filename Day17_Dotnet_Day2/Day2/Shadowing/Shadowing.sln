@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shadowing", "Shadowing\Shadowing.csproj", "{86AE2481-8D86-49B4-B60F-A42A0D0B5D7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86AE2481-8D86-49B4-B60F-A42A0D0B5D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86AE2481-8D86-49B4-B60F-A42A0D0B5D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86AE2481-8D86-49B4-B60F-A42A0D0B5D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86AE2481-8D86-49B4-B60F-A42A0D0B5D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B16D711-DB3C-4857-BCA9-34F3A2F9AD76}
+	EndGlobalSection
+EndGlobal

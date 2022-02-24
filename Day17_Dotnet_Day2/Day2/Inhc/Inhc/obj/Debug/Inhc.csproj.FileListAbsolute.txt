@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day2\Inhc\Inhc\bin\Debug\Inhc.exe.config
+C:\dotnet_mphasis\Day2\Inhc\Inhc\bin\Debug\Inhc.exe
+C:\dotnet_mphasis\Day2\Inhc\Inhc\bin\Debug\Inhc.pdb
+C:\dotnet_mphasis\Day2\Inhc\Inhc\obj\Debug\Inhc.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day2\Inhc\Inhc\obj\Debug\Inhc.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day2\Inhc\Inhc\obj\Debug\Inhc.exe
+C:\dotnet_mphasis\Day2\Inhc\Inhc\obj\Debug\Inhc.pdb

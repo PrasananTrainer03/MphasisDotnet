@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fac9300b-6fe9-4d0e-b4ff-e21472741d1d": {
+      "ProjectGuid": "fac9300b-6fe9-4d0e-b4ff-e21472741d1d",
+      "DisplayName": "BoxingDemo",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

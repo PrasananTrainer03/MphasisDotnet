@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day2\Shadowing\Shadowing\bin\Debug\Shadowing.exe.config
+C:\dotnet_mphasis\Day2\Shadowing\Shadowing\bin\Debug\Shadowing.exe
+C:\dotnet_mphasis\Day2\Shadowing\Shadowing\bin\Debug\Shadowing.pdb
+C:\dotnet_mphasis\Day2\Shadowing\Shadowing\obj\Debug\Shadowing.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day2\Shadowing\Shadowing\obj\Debug\Shadowing.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day2\Shadowing\Shadowing\obj\Debug\Shadowing.exe
+C:\dotnet_mphasis\Day2\Shadowing\Shadowing\obj\Debug\Shadowing.pdb
