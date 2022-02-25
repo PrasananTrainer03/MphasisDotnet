@@ -1,0 +1,8 @@
+C:\dotnet_mphasis\Day3\SwapExample\SwapExample\bin\Debug\SwapExample.exe.config
+C:\dotnet_mphasis\Day3\SwapExample\SwapExample\bin\Debug\SwapExample.exe
+C:\dotnet_mphasis\Day3\SwapExample\SwapExample\bin\Debug\SwapExample.pdb
+C:\dotnet_mphasis\Day3\SwapExample\SwapExample\obj\Debug\SwapExample.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\Day3\SwapExample\SwapExample\obj\Debug\SwapExample.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day3\SwapExample\SwapExample\obj\Debug\SwapExample.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day3\SwapExample\SwapExample\obj\Debug\SwapExample.exe
+C:\dotnet_mphasis\Day3\SwapExample\SwapExample\obj\Debug\SwapExample.pdb

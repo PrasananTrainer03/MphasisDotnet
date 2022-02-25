@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day3\CustomDemo\CustomDemo\bin\Debug\CustomDemo.exe.config
+C:\dotnet_mphasis\Day3\CustomDemo\CustomDemo\bin\Debug\CustomDemo.exe
+C:\dotnet_mphasis\Day3\CustomDemo\CustomDemo\bin\Debug\CustomDemo.pdb
+C:\dotnet_mphasis\Day3\CustomDemo\CustomDemo\obj\Debug\CustomDemo.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day3\CustomDemo\CustomDemo\obj\Debug\CustomDemo.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day3\CustomDemo\CustomDemo\obj\Debug\CustomDemo.exe
+C:\dotnet_mphasis\Day3\CustomDemo\CustomDemo\obj\Debug\CustomDemo.pdb

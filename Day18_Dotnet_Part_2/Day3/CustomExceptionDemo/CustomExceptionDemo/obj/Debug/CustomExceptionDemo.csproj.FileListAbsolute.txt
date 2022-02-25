@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day3\CustomExceptionDemo\CustomExceptionDemo\obj\Debug\CustomExceptionDemo.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day3\CustomExceptionDemo\CustomExceptionDemo\obj\Debug\CustomExceptionDemo.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day3\CustomExceptionDemo\CustomExceptionDemo\bin\Debug\CustomExceptionDemo.exe.config
+C:\dotnet_mphasis\Day3\CustomExceptionDemo\CustomExceptionDemo\bin\Debug\CustomExceptionDemo.exe
+C:\dotnet_mphasis\Day3\CustomExceptionDemo\CustomExceptionDemo\bin\Debug\CustomExceptionDemo.pdb
+C:\dotnet_mphasis\Day3\CustomExceptionDemo\CustomExceptionDemo\obj\Debug\CustomExceptionDemo.exe
+C:\dotnet_mphasis\Day3\CustomExceptionDemo\CustomExceptionDemo\obj\Debug\CustomExceptionDemo.pdb

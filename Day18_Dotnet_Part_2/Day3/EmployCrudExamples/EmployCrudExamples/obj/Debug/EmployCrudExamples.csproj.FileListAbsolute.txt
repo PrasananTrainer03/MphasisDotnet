@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day3\EmployCrudExamples\EmployCrudExamples\bin\Debug\EmployCrudExamples.exe.config
+C:\dotnet_mphasis\Day3\EmployCrudExamples\EmployCrudExamples\bin\Debug\EmployCrudExamples.exe
+C:\dotnet_mphasis\Day3\EmployCrudExamples\EmployCrudExamples\bin\Debug\EmployCrudExamples.pdb
+C:\dotnet_mphasis\Day3\EmployCrudExamples\EmployCrudExamples\obj\Debug\EmployCrudExamples.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day3\EmployCrudExamples\EmployCrudExamples\obj\Debug\EmployCrudExamples.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day3\EmployCrudExamples\EmployCrudExamples\obj\Debug\EmployCrudExamples.exe
+C:\dotnet_mphasis\Day3\EmployCrudExamples\EmployCrudExamples\obj\Debug\EmployCrudExamples.pdb

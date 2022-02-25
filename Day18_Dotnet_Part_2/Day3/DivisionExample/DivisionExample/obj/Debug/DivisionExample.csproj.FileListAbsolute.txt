@@ -1,0 +1,8 @@
+C:\dotnet_mphasis\Day3\DivisionExample\DivisionExample\bin\Debug\DivisionExample.exe.config
+C:\dotnet_mphasis\Day3\DivisionExample\DivisionExample\bin\Debug\DivisionExample.exe
+C:\dotnet_mphasis\Day3\DivisionExample\DivisionExample\bin\Debug\DivisionExample.pdb
+C:\dotnet_mphasis\Day3\DivisionExample\DivisionExample\obj\Debug\DivisionExample.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\Day3\DivisionExample\DivisionExample\obj\Debug\DivisionExample.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day3\DivisionExample\DivisionExample\obj\Debug\DivisionExample.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day3\DivisionExample\DivisionExample\obj\Debug\DivisionExample.exe
+C:\dotnet_mphasis\Day3\DivisionExample\DivisionExample\obj\Debug\DivisionExample.pdb

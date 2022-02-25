@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day3\WriteOnlyEx\WriteOnlyEx\obj\Debug\WriteOnlyEx.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day3\WriteOnlyEx\WriteOnlyEx\obj\Debug\WriteOnlyEx.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day3\WriteOnlyEx\WriteOnlyEx\bin\Debug\WriteOnlyEx.exe.config
+C:\dotnet_mphasis\Day3\WriteOnlyEx\WriteOnlyEx\bin\Debug\WriteOnlyEx.exe
+C:\dotnet_mphasis\Day3\WriteOnlyEx\WriteOnlyEx\bin\Debug\WriteOnlyEx.pdb
+C:\dotnet_mphasis\Day3\WriteOnlyEx\WriteOnlyEx\obj\Debug\WriteOnlyEx.exe
+C:\dotnet_mphasis\Day3\WriteOnlyEx\WriteOnlyEx\obj\Debug\WriteOnlyEx.pdb

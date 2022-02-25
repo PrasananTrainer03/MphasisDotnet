@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day3\ArrEx\ArrEx\bin\Debug\ArrEx.exe.config
+C:\dotnet_mphasis\Day3\ArrEx\ArrEx\bin\Debug\ArrEx.exe
+C:\dotnet_mphasis\Day3\ArrEx\ArrEx\bin\Debug\ArrEx.pdb
+C:\dotnet_mphasis\Day3\ArrEx\ArrEx\obj\Debug\ArrEx.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day3\ArrEx\ArrEx\obj\Debug\ArrEx.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day3\ArrEx\ArrEx\obj\Debug\ArrEx.exe
+C:\dotnet_mphasis\Day3\ArrEx\ArrEx\obj\Debug\ArrEx.pdb
