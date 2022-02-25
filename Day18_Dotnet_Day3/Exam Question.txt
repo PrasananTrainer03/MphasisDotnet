@@ -1,0 +1,12 @@
+1) Write a Program to Convert Binary to Decimal
+
+2) Write a Program to read numbers from 1 to 9999 and display in english words
+
+Example :
+
+	567  Five hundred sixty and seven
+
+	1234 One thousand two hundred and thirty four
+
+	5600 Five Thousand and six hundred
+
