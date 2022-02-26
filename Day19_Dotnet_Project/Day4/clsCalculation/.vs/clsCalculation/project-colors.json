@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2693089e-6fe0-40fe-9819-31529f0c5467": {
+      "ProjectGuid": "2693089e-6fe0-40fe-9819-31529f0c5467",
+      "DisplayName": "clsCalculation",
+      "ColorIndex": 0
+    },
+    "8e01d8e6-323b-4161-94d7-b7d652569fb9": {
+      "ProjectGuid": "8e01d8e6-323b-4161-94d7-b7d652569fb9",
+      "DisplayName": "CalculationExecution",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

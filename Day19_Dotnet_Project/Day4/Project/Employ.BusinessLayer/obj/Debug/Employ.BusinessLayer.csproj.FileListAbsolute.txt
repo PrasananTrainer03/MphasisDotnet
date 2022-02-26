@@ -1,0 +1,12 @@
+C:\dotnet_mphasis\Day4\Project\Employ.BusinessLayer\bin\Debug\Employ.BusinessLayer.dll
+C:\dotnet_mphasis\Day4\Project\Employ.BusinessLayer\bin\Debug\Employ.BusinessLayer.pdb
+C:\dotnet_mphasis\Day4\Project\Employ.BusinessLayer\bin\Debug\Employ.DataLayer.dll
+C:\dotnet_mphasis\Day4\Project\Employ.BusinessLayer\bin\Debug\Employ.Entities.dll
+C:\dotnet_mphasis\Day4\Project\Employ.BusinessLayer\bin\Debug\Employ.Exceptions.dll
+C:\dotnet_mphasis\Day4\Project\Employ.BusinessLayer\bin\Debug\Employ.DataLayer.pdb
+C:\dotnet_mphasis\Day4\Project\Employ.BusinessLayer\bin\Debug\Employ.Entities.pdb
+C:\dotnet_mphasis\Day4\Project\Employ.BusinessLayer\bin\Debug\Employ.Exceptions.pdb
+C:\dotnet_mphasis\Day4\Project\Employ.BusinessLayer\obj\Debug\Employ.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day4\Project\Employ.BusinessLayer\obj\Debug\Employ.BusinessLayer.csproj.CopyComplete
+C:\dotnet_mphasis\Day4\Project\Employ.BusinessLayer\obj\Debug\Employ.BusinessLayer.dll
+C:\dotnet_mphasis\Day4\Project\Employ.BusinessLayer\obj\Debug\Employ.BusinessLayer.pdb

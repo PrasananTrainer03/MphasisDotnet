@@ -1,0 +1,11 @@
+C:\dotnet_mphasis\Day4\OperationsExecution\bin\Debug\OperationsExecution.exe.config
+C:\dotnet_mphasis\Day4\OperationsExecution\bin\Debug\OperationsExecution.exe
+C:\dotnet_mphasis\Day4\OperationsExecution\bin\Debug\OperationsExecution.pdb
+C:\dotnet_mphasis\Day4\OperationsExecution\bin\Debug\clsOperations.dll
+C:\dotnet_mphasis\Day4\OperationsExecution\bin\Debug\clsOperations.pdb
+C:\dotnet_mphasis\Day4\OperationsExecution\obj\Debug\OperationsExecution.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\Day4\OperationsExecution\obj\Debug\OperationsExecution.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day4\OperationsExecution\obj\Debug\OperationsExecution.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day4\OperationsExecution\obj\Debug\OperationsExecution.csproj.CopyComplete
+C:\dotnet_mphasis\Day4\OperationsExecution\obj\Debug\OperationsExecution.exe
+C:\dotnet_mphasis\Day4\OperationsExecution\obj\Debug\OperationsExecution.pdb

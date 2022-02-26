@@ -1,0 +1,11 @@
+C:\dotnet_mphasis\Day4\CalculationExecution\bin\Debug\CalculationExecution.exe.config
+C:\dotnet_mphasis\Day4\CalculationExecution\bin\Debug\CalculationExecution.exe
+C:\dotnet_mphasis\Day4\CalculationExecution\bin\Debug\CalculationExecution.pdb
+C:\dotnet_mphasis\Day4\CalculationExecution\bin\Debug\clsCalculation.dll
+C:\dotnet_mphasis\Day4\CalculationExecution\bin\Debug\clsCalculation.pdb
+C:\dotnet_mphasis\Day4\CalculationExecution\obj\Debug\CalculationExecution.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\Day4\CalculationExecution\obj\Debug\CalculationExecution.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day4\CalculationExecution\obj\Debug\CalculationExecution.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day4\CalculationExecution\obj\Debug\CalculationExecution.csproj.CopyComplete
+C:\dotnet_mphasis\Day4\CalculationExecution\obj\Debug\CalculationExecution.exe
+C:\dotnet_mphasis\Day4\CalculationExecution\obj\Debug\CalculationExecution.pdb

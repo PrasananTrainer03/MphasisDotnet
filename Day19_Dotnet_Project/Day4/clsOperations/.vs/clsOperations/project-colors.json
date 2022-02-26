@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6493fa01-c101-41a6-a552-f8ac6843c831": {
+      "ProjectGuid": "6493fa01-c101-41a6-a552-f8ac6843c831",
+      "DisplayName": "clsOperations",
+      "ColorIndex": 0
+    },
+    "a77dca42-f7a0-4b6c-83b1-9ceba3440f27": {
+      "ProjectGuid": "a77dca42-f7a0-4b6c-83b1-9ceba3440f27",
+      "DisplayName": "OperationsExecution",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -1,0 +1,5 @@
+C:\dotnet_mphasis\Day4\Project\Employ.Entities\Employ.Entities\bin\Debug\Employ.Entities.dll
+C:\dotnet_mphasis\Day4\Project\Employ.Entities\Employ.Entities\bin\Debug\Employ.Entities.pdb
+C:\dotnet_mphasis\Day4\Project\Employ.Entities\Employ.Entities\obj\Debug\Employ.Entities.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day4\Project\Employ.Entities\Employ.Entities\obj\Debug\Employ.Entities.dll
+C:\dotnet_mphasis\Day4\Project\Employ.Entities\Employ.Entities\obj\Debug\Employ.Entities.pdb

@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Day4\SbExample\SbExample\bin\Debug\SbExample.exe.config
+C:\dotnet_mphasis\Day4\SbExample\SbExample\bin\Debug\SbExample.exe
+C:\dotnet_mphasis\Day4\SbExample\SbExample\bin\Debug\SbExample.pdb
+C:\dotnet_mphasis\Day4\SbExample\SbExample\obj\Debug\SbExample.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day4\SbExample\SbExample\obj\Debug\SbExample.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day4\SbExample\SbExample\obj\Debug\SbExample.exe
+C:\dotnet_mphasis\Day4\SbExample\SbExample\obj\Debug\SbExample.pdb

@@ -1,0 +1,6 @@
+C:\dotnet_mphasis\Day4\clsCalculation\clsCalculation\bin\Debug\clsCalculation.dll
+C:\dotnet_mphasis\Day4\clsCalculation\clsCalculation\bin\Debug\clsCalculation.pdb
+C:\dotnet_mphasis\Day4\clsCalculation\clsCalculation\obj\Debug\clsCalculation.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\Day4\clsCalculation\clsCalculation\obj\Debug\clsCalculation.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day4\clsCalculation\clsCalculation\obj\Debug\clsCalculation.dll
+C:\dotnet_mphasis\Day4\clsCalculation\clsCalculation\obj\Debug\clsCalculation.pdb

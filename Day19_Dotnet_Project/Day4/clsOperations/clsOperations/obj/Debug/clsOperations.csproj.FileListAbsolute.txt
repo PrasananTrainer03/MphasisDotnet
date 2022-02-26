@@ -1,0 +1,5 @@
+C:\dotnet_mphasis\Day4\clsOperations\clsOperations\bin\Debug\clsOperations.dll
+C:\dotnet_mphasis\Day4\clsOperations\clsOperations\bin\Debug\clsOperations.pdb
+C:\dotnet_mphasis\Day4\clsOperations\clsOperations\obj\Debug\clsOperations.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day4\clsOperations\clsOperations\obj\Debug\clsOperations.dll
+C:\dotnet_mphasis\Day4\clsOperations\clsOperations\obj\Debug\clsOperations.pdb

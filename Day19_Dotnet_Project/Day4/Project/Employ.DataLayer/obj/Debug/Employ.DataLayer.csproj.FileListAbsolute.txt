@@ -1,0 +1,8 @@
+C:\dotnet_mphasis\Day4\Project\Employ.DataLayer\bin\Debug\Employ.DataLayer.dll
+C:\dotnet_mphasis\Day4\Project\Employ.DataLayer\bin\Debug\Employ.DataLayer.pdb
+C:\dotnet_mphasis\Day4\Project\Employ.DataLayer\bin\Debug\Employ.Entities.dll
+C:\dotnet_mphasis\Day4\Project\Employ.DataLayer\bin\Debug\Employ.Entities.pdb
+C:\dotnet_mphasis\Day4\Project\Employ.DataLayer\obj\Debug\Employ.DataLayer.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day4\Project\Employ.DataLayer\obj\Debug\Employ.DataLayer.csproj.CopyComplete
+C:\dotnet_mphasis\Day4\Project\Employ.DataLayer\obj\Debug\Employ.DataLayer.dll
+C:\dotnet_mphasis\Day4\Project\Employ.DataLayer\obj\Debug\Employ.DataLayer.pdb

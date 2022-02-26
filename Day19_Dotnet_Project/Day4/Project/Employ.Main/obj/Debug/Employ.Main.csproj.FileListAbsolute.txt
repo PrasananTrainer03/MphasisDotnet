@@ -1,0 +1,17 @@
+C:\dotnet_mphasis\Day4\Project\Employ.Main\bin\Debug\Employ.Main.exe.config
+C:\dotnet_mphasis\Day4\Project\Employ.Main\bin\Debug\Employ.Main.exe
+C:\dotnet_mphasis\Day4\Project\Employ.Main\bin\Debug\Employ.Main.pdb
+C:\dotnet_mphasis\Day4\Project\Employ.Main\bin\Debug\Employ.BusinessLayer.dll
+C:\dotnet_mphasis\Day4\Project\Employ.Main\bin\Debug\Employ.Entities.dll
+C:\dotnet_mphasis\Day4\Project\Employ.Main\bin\Debug\Employ.Exceptions.dll
+C:\dotnet_mphasis\Day4\Project\Employ.Main\bin\Debug\Employ.DataLayer.dll
+C:\dotnet_mphasis\Day4\Project\Employ.Main\bin\Debug\Employ.BusinessLayer.pdb
+C:\dotnet_mphasis\Day4\Project\Employ.Main\bin\Debug\Employ.Entities.pdb
+C:\dotnet_mphasis\Day4\Project\Employ.Main\bin\Debug\Employ.Exceptions.pdb
+C:\dotnet_mphasis\Day4\Project\Employ.Main\bin\Debug\Employ.DataLayer.pdb
+C:\dotnet_mphasis\Day4\Project\Employ.Main\obj\Debug\Employ.Main.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\Day4\Project\Employ.Main\obj\Debug\Employ.Main.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Day4\Project\Employ.Main\obj\Debug\Employ.Main.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Day4\Project\Employ.Main\obj\Debug\Employ.Main.csproj.CopyComplete
+C:\dotnet_mphasis\Day4\Project\Employ.Main\obj\Debug\Employ.Main.exe
+C:\dotnet_mphasis\Day4\Project\Employ.Main\obj\Debug\Employ.Main.pdb
