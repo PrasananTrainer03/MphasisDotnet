@@ -1,0 +1,8 @@
+C:\dotnet_Ado\UserAuthentication\UserAuthentication\bin\Debug\UserAuthentication.exe.config
+C:\dotnet_Ado\UserAuthentication\UserAuthentication\bin\Debug\UserAuthentication.exe
+C:\dotnet_Ado\UserAuthentication\UserAuthentication\bin\Debug\UserAuthentication.pdb
+C:\dotnet_Ado\UserAuthentication\UserAuthentication\obj\Debug\UserAuthentication.csproj.AssemblyReference.cache
+C:\dotnet_Ado\UserAuthentication\UserAuthentication\obj\Debug\UserAuthentication.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_Ado\UserAuthentication\UserAuthentication\obj\Debug\UserAuthentication.csproj.CoreCompileInputs.cache
+C:\dotnet_Ado\UserAuthentication\UserAuthentication\obj\Debug\UserAuthentication.exe
+C:\dotnet_Ado\UserAuthentication\UserAuthentication\obj\Debug\UserAuthentication.pdb
