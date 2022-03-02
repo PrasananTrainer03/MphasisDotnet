@@ -1,0 +1,8 @@
+C:\dotnet_Ado\EmployAddAdo\EmployAddAdo\obj\Debug\EmployAddAdo.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_Ado\EmployAddAdo\EmployAddAdo\obj\Debug\EmployAddAdo.csproj.CoreCompileInputs.cache
+C:\dotnet_Ado\EmployAddAdo\EmployAddAdo\bin\Debug\EmployAddAdo.exe.config
+C:\dotnet_Ado\EmployAddAdo\EmployAddAdo\bin\Debug\EmployAddAdo.exe
+C:\dotnet_Ado\EmployAddAdo\EmployAddAdo\bin\Debug\EmployAddAdo.pdb
+C:\dotnet_Ado\EmployAddAdo\EmployAddAdo\obj\Debug\EmployAddAdo.exe
+C:\dotnet_Ado\EmployAddAdo\EmployAddAdo\obj\Debug\EmployAddAdo.pdb
+C:\dotnet_Ado\EmployAddAdo\EmployAddAdo\obj\Debug\EmployAddAdo.csproj.AssemblyReference.cache

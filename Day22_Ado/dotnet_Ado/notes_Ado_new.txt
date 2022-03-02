@@ -1,0 +1,66 @@
+
+
+
+ADO.NET 
+
+   ADO.NET is a disconnected data architecture, that which allows you to 
+connect to the database whenever you need to send any data or retrieve any data. 
+
+Always open connection not required. 
+
+To Work with ADO.NET, we need to import 
+
+System.Data
+System.Data.SqlClient
+
+Connection : Connection is a pipeline through which, we can connect to any backend. 
+
+There are 2 types of connections known as 
+
+	(i) SqlConnection
+
+	(ii) OledbConnection 
+
+By using SqlConnection, we can connect to any backend, but by using OledbConnection, we can connect to 
+any backend like 
+
+	(i) SqlServer, Oracle, Ms-Access etc...
+
+SqlConnection performs 70% faster than OledbConnection. 
+
+DataAdapter : Heart w.r.t. Database CRUD operations. To retrieve data from Database Tables, and to make the changes reflected from front-end to back-end, then we need the help of DataAdapter. 
+
+	-> It contains 4 commands as
+
+		SelectCommand
+
+		InsertCommand
+
+		UpdateCommand
+
+		DeleteCommand 
+
+DataSet : To store the records, that which are retrieved by adapter, then we need the help of DataSet. 
+DataSet contains whole information, that entire database tables contains. 
+
+In Disconnected data architecture, 
+DataSet plays vital role, because once you retrieve data and store in DataSet, no need to connect to database everytime, only when you send the data to database, then only connection required, till that time, we can retrieve data from DataSet. If you add any record, at first it added to DataSet, till you update Adapter, it is in dataset not in database. 
+
+
+If dataset lost in the middle, as soon as program runs, the dataset stores data internally in either database objects or xml fomat as 2 types of dataset are available, so 
+
+ 	(i) typed dataset (Database Object)
+
+	(ii) untyped Dataset (xml format)
+
+For everytime, the dataset maintains cache of data in above format, and even program terminates the dataset dat is still alive. 
+
+
+
+
+
+
+
+
+
+

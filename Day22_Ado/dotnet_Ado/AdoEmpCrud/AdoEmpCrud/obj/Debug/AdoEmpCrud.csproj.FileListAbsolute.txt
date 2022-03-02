@@ -1,0 +1,8 @@
+C:\dotnet_Ado\AdoEmpCrud\AdoEmpCrud\bin\Debug\AdoEmpCrud.exe.config
+C:\dotnet_Ado\AdoEmpCrud\AdoEmpCrud\bin\Debug\AdoEmpCrud.exe
+C:\dotnet_Ado\AdoEmpCrud\AdoEmpCrud\bin\Debug\AdoEmpCrud.pdb
+C:\dotnet_Ado\AdoEmpCrud\AdoEmpCrud\obj\Debug\AdoEmpCrud.csproj.AssemblyReference.cache
+C:\dotnet_Ado\AdoEmpCrud\AdoEmpCrud\obj\Debug\AdoEmpCrud.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_Ado\AdoEmpCrud\AdoEmpCrud\obj\Debug\AdoEmpCrud.csproj.CoreCompileInputs.cache
+C:\dotnet_Ado\AdoEmpCrud\AdoEmpCrud\obj\Debug\AdoEmpCrud.exe
+C:\dotnet_Ado\AdoEmpCrud\AdoEmpCrud\obj\Debug\AdoEmpCrud.pdb

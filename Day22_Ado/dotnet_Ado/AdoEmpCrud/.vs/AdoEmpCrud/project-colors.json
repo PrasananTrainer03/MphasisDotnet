@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f7c3de13-f171-4589-a55a-1ee83e911d8b": {
+      "ProjectGuid": "f7c3de13-f171-4589-a55a-1ee83e911d8b",
+      "DisplayName": "AdoEmpCrud",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

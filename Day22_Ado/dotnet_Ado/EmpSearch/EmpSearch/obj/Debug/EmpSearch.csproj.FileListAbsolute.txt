@@ -1,0 +1,8 @@
+C:\dotnet_Ado\EmpSearch\EmpSearch\bin\Debug\EmpSearch.exe.config
+C:\dotnet_Ado\EmpSearch\EmpSearch\bin\Debug\EmpSearch.exe
+C:\dotnet_Ado\EmpSearch\EmpSearch\bin\Debug\EmpSearch.pdb
+C:\dotnet_Ado\EmpSearch\EmpSearch\obj\Debug\EmpSearch.csproj.AssemblyReference.cache
+C:\dotnet_Ado\EmpSearch\EmpSearch\obj\Debug\EmpSearch.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_Ado\EmpSearch\EmpSearch\obj\Debug\EmpSearch.csproj.CoreCompileInputs.cache
+C:\dotnet_Ado\EmpSearch\EmpSearch\obj\Debug\EmpSearch.exe
+C:\dotnet_Ado\EmpSearch\EmpSearch\obj\Debug\EmpSearch.pdb

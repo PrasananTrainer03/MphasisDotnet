@@ -1,0 +1,7 @@
+C:\dotnet_Ado\AdoEmpDelete\AdoEmpDelete\bin\Debug\AdoEmpDelete.exe.config
+C:\dotnet_Ado\AdoEmpDelete\AdoEmpDelete\bin\Debug\AdoEmpDelete.exe
+C:\dotnet_Ado\AdoEmpDelete\AdoEmpDelete\bin\Debug\AdoEmpDelete.pdb
+C:\dotnet_Ado\AdoEmpDelete\AdoEmpDelete\obj\Debug\AdoEmpDelete.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_Ado\AdoEmpDelete\AdoEmpDelete\obj\Debug\AdoEmpDelete.csproj.CoreCompileInputs.cache
+C:\dotnet_Ado\AdoEmpDelete\AdoEmpDelete\obj\Debug\AdoEmpDelete.exe
+C:\dotnet_Ado\AdoEmpDelete\AdoEmpDelete\obj\Debug\AdoEmpDelete.pdb
