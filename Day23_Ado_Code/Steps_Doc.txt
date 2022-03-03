@@ -1,0 +1,292 @@
+
+
+
+Yesterday we did ado.net application, but that application don't have any standards. 
+
+Drawbacks of yesterday applications
+
+1) Writing Business Logic in Main
+
+2) No reusability of code (Search Code repeated multiple times)
+
+3) Connection Code we wrote multiple times. 
+
+Now, today, we need to make an application w.r.t. realtime standards
+
+1) Need a class name as ConnectionHelper which contrains all connection information code.
+
+2) Need to Have entity  classes w.r.t. getters and Setters 
+
+3) Please have ToString() method to print the records 
+
+Steps to create an application w.r.t. RealTime Standards : 
+____________________________________________________________
+
+Step 1 : 
+
+Create a Console Application
+
+Add the References of System.configuration and write the below code in app.config file
+
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<connectionStrings>
+		<add name="sqlpracticeconn" connectionString="integrated security=true;data source=DESKTOP-1P9MIR5;initial catalog=sqlpractice;"/>
+	</connectionStrings>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+</configuration>
+
+Step 2 : 
+
+    Make an entity class of Emp table 
+
+means Emp Table Field Names and Emp class field names must be same. (Entity classes will have Getters and Setters and ToString()) 
+
+public class Emp
+    {
+        public int Empno { get; set; }
+        public string Nam { get; set; }
+        public string Dept { get; set; }
+        public string Desig { get; set; }
+        public int Basic { get; set; }
+    }
+
+
+Step 3 : 
+
+We need to make ConnectionHelper class, as yesterday we wrote connection code in all files, that is wrong approach. 
+
+
+ public class ConnectionHelper
+    {
+        public static SqlConnection GetConnection()
+        {
+            string strcon = ConfigurationManager.ConnectionStrings["sqlpracticeconn"].ConnectionString;
+            SqlConnection conn = new SqlConnection(strcon);
+            return conn;
+        }
+    }
+
+In the above code, i took static method, because static always maintains the state, and i need only one single database connection for entire project, and GetConnection() is method, that which returns connection object. 
+
+So, for connection directly we call as 
+
+ConnectionHelper.GetConnection()
+
+Step 4 : 
+
+Now onwards, we need to write Business Logic in DAO file
+
+Create a File as EmpDAO.cs and implement CRUD operations on that. 
+
+For ShowAllEmploy() method, what is the return type, as we write (select * from Emp) 
+
+as, it returns more than one record possibly,
+
+So, the return type we have to make as List<Emp> and ensure the database records needs to be converted as
+Emp records and add to the generic list. 
+
+
+ public class EmpDAO
+    {
+        SqlConnection connection;
+        SqlDataAdapter adapter;
+
+        public List<Emp> ShowEmploy()
+        {
+            connection = ConnectionHelper.GetConnection();
+            adapter = new SqlDataAdapter("select * from Emp", connection);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds, "EmpDummy");
+            List<Emp> employList = new List<Emp>();
+            Emp emp = null;
+            foreach(DataRow dr in ds.Tables["EmpDummy"].Rows)
+            {
+                emp = new Emp();
+                emp.Empno = Convert.ToInt32(dr["empno"]);
+                emp.Nam = dr["nam"].ToString();
+                emp.Dept = dr["dept"].ToString();
+                emp.Desig = dr["desig"].ToString();
+                emp.Basic = Convert.ToInt32(dr["basic"]);
+                employList.Add(emp);
+            }
+            return employList;
+        }
+    }
+
+________________________________________________________________
+
+static void Main(string[] args)
+        {
+            EmpDAO dao = new EmpDAO();
+            List<Emp> employList = dao.ShowEmploy();
+            foreach(Emp e in employList)
+            {
+                Console.WriteLine(e);
+            }
+        }
+
+
+
+_______________________________________________________________________________________________
+
+Step 5 : 
+
+Write code in DAO file for EmploySearch  
+
+	(select * from Emp where empno=@empno) 
+
+What is the return type for the method. 
+
+one or zero Emp records, so return type for this method is Emp 
+
+public Emp SearchEmp(int empno)
+{
+...
+...
+}
+
+
+        public Emp SearchEmp(int empno)
+        {
+            connection = ConnectionHelper.GetConnection();
+            adapter = new SqlDataAdapter("select * from Emp where empno=@empno", connection);
+            adapter.SelectCommand.Parameters.AddWithValue("@empno", empno);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds, "EmpDummy");
+            Emp emp = null;
+            int count = ds.Tables["EmpDummy"].Rows.Count;
+            if (count==1)
+            {
+                emp = new Emp();
+                DataRow dr = ds.Tables["EmpDummy"].Rows[0];
+                emp.Empno = Convert.ToInt32(dr["empno"]);
+                emp.Nam = dr["nam"].ToString();
+                emp.Dept = dr["dept"].ToString();
+                emp.Desig = dr["desig"].ToString();
+                emp.Basic = Convert.ToInt32(dr["basic"]);
+            }
+            return emp;
+        }
+
+
+        static void Main()
+        {
+            int empno;
+            Console.WriteLine("Enter Employ Number   ");
+            empno = Convert.ToInt32(Console.ReadLine());
+            EmpDAO dao = new EmpDAO();
+            Emp emp = dao.SearchEmp(empno);
+            if (emp!=null)
+            {
+                Console.WriteLine(emp);
+            }
+            else
+            {
+                Console.WriteLine("*** Record Not Found ***");
+            }
+
+        }
+    }
+
+___________________________________________________________________________________________________
+
+ADO.NET Implementation using Layered Architecture 
+
+It contains total 5 layers 
+
+1) Entities (Contains classes with getters and setters with ToString())
+
+2) Exceptions (Contains all Custom Exception classes) 
+
+3) DAO (Contains actual Business Logic, its same like previous Program)
+
+4) BAL (Contains Business Validations)
+
+5) Main (Calling BAL in Main and execute the Code)
+
+First 4 are class libraries and Main is Console Application we need to make. 
+
+
+Validations on Emp Table : 
+____________________________
+
+
+empno dont enter at time of insert, need to be generated automatically.
+
+nam contains min 5 characters
+
+Basic must be from 20000 to 100000
+
+Step 1 : 
+
+Create a Class Library and name it as Emp.Entities
+
+and write the below code in Emp.cs file
+
+    public class Emp
+    {
+        public int Empno { get; set; }
+        public string Nam { get; set; }
+        public string Dept { get; set; }
+        public string Desig { get; set; }
+        public int Basic { get; set; }
+
+        public override string ToString()
+        {
+            return "Employ No " + Empno + " Employ Name  " + Nam + " Department  "
+                + Dept + " Designation  " + Desig + " Basic  " + Basic;
+        }
+
+    }
+
+
+Step 2 : 
+
+Add New Project to the existing project (class library)
+
+File -> Add ->New Project 
+
+Name it as Emp.Exceptions 
+
+
+
+For ShowEmployBAL() No Validations required, simply we need to call DAO method in BAL, and BAL method needs to be called in MainProgram, that is flow. 
+
+As i am making static object of DAO class in BAL, because for all operations no need to create an object. 
+
+static objects to be initilized using static constructor, so created object in static constructor as
+
+ static EmpDAO dao;
+        static EmpBAL()
+        {
+            dao = new EmpDAO();
+        }
+
+
+Now, we need to call DAO method in BAL
+
+ public List<Emp.Entities.Emp> ShowEmployBal()
+        {
+            return dao.ShowEmployDao();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
