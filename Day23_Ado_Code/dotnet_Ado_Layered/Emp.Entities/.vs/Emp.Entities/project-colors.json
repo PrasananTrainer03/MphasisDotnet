@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "74a5a626-b42e-4db2-bb37-248be00a6beb": {
+      "ProjectGuid": "74a5a626-b42e-4db2-bb37-248be00a6beb",
+      "DisplayName": "Emp.Entities",
+      "ColorIndex": 0
+    },
+    "0590e7ac-907d-4835-93b2-a3e619059755": {
+      "ProjectGuid": "0590e7ac-907d-4835-93b2-a3e619059755",
+      "DisplayName": "Emp.Exceptions",
+      "ColorIndex": 1
+    },
+    "efdd06f9-3042-49a0-b617-e3ff23d37094": {
+      "ProjectGuid": "efdd06f9-3042-49a0-b617-e3ff23d37094",
+      "DisplayName": "Emp.DataLayer",
+      "ColorIndex": 2
+    },
+    "20e2c437-9c79-4b2c-bb12-382b6d5d4255": {
+      "ProjectGuid": "20e2c437-9c79-4b2c-bb12-382b6d5d4255",
+      "DisplayName": "Employ.BusinessLayer",
+      "ColorIndex": 3
+    },
+    "7e5984fa-7d3d-4839-b3af-6c90e8643f58": {
+      "ProjectGuid": "7e5984fa-7d3d-4839-b3af-6c90e8643f58",
+      "DisplayName": "EmpProject.Main",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

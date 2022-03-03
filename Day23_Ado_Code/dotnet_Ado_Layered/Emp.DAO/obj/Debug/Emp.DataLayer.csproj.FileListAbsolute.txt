@@ -1,0 +1,8 @@
+C:\dotnet_Ado_Layered\Emp.DAO\bin\Debug\Emp.DAO.dll
+C:\dotnet_Ado_Layered\Emp.DAO\bin\Debug\Emp.DAO.pdb
+C:\dotnet_Ado_Layered\Emp.DAO\obj\Debug\Emp.DataLayer.csproj.CoreCompileInputs.cache
+C:\dotnet_Ado_Layered\Emp.DAO\obj\Debug\Emp.DAO.dll
+C:\dotnet_Ado_Layered\Emp.DAO\obj\Debug\Emp.DAO.pdb
+C:\dotnet_Ado_Layered\Emp.DAO\bin\Debug\Emp.Entities.dll
+C:\dotnet_Ado_Layered\Emp.DAO\bin\Debug\Emp.Entities.pdb
+C:\dotnet_Ado_Layered\Emp.DAO\obj\Debug\Emp.DataLayer.csproj.CopyComplete

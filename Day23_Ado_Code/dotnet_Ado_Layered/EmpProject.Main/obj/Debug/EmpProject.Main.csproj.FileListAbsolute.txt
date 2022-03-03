@@ -1,0 +1,17 @@
+C:\dotnet_Ado_Layered\EmpProject.Main\bin\Debug\EmpProject.Main.exe.config
+C:\dotnet_Ado_Layered\EmpProject.Main\bin\Debug\EmpProject.Main.exe
+C:\dotnet_Ado_Layered\EmpProject.Main\bin\Debug\EmpProject.Main.pdb
+C:\dotnet_Ado_Layered\EmpProject.Main\bin\Debug\Emp.Entities.dll
+C:\dotnet_Ado_Layered\EmpProject.Main\bin\Debug\Emp.Exceptions.dll
+C:\dotnet_Ado_Layered\EmpProject.Main\bin\Debug\Employ.BusinessLayer.dll
+C:\dotnet_Ado_Layered\EmpProject.Main\bin\Debug\Emp.DAO.dll
+C:\dotnet_Ado_Layered\EmpProject.Main\bin\Debug\Emp.Entities.pdb
+C:\dotnet_Ado_Layered\EmpProject.Main\bin\Debug\Emp.Exceptions.pdb
+C:\dotnet_Ado_Layered\EmpProject.Main\bin\Debug\Employ.BusinessLayer.pdb
+C:\dotnet_Ado_Layered\EmpProject.Main\bin\Debug\Emp.DAO.pdb
+C:\dotnet_Ado_Layered\EmpProject.Main\obj\Debug\EmpProject.Main.csproj.AssemblyReference.cache
+C:\dotnet_Ado_Layered\EmpProject.Main\obj\Debug\EmpProject.Main.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_Ado_Layered\EmpProject.Main\obj\Debug\EmpProject.Main.csproj.CoreCompileInputs.cache
+C:\dotnet_Ado_Layered\EmpProject.Main\obj\Debug\EmpProject.Main.csproj.CopyComplete
+C:\dotnet_Ado_Layered\EmpProject.Main\obj\Debug\EmpProject.Main.exe
+C:\dotnet_Ado_Layered\EmpProject.Main\obj\Debug\EmpProject.Main.pdb

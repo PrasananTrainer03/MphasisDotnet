@@ -1,0 +1,8 @@
+C:\dotnet_Ado_new\AdoRealTime\AdoRealTime\bin\Debug\AdoRealTime.exe.config
+C:\dotnet_Ado_new\AdoRealTime\AdoRealTime\bin\Debug\AdoRealTime.exe
+C:\dotnet_Ado_new\AdoRealTime\AdoRealTime\bin\Debug\AdoRealTime.pdb
+C:\dotnet_Ado_new\AdoRealTime\AdoRealTime\obj\Debug\AdoRealTime.csproj.AssemblyReference.cache
+C:\dotnet_Ado_new\AdoRealTime\AdoRealTime\obj\Debug\AdoRealTime.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_Ado_new\AdoRealTime\AdoRealTime\obj\Debug\AdoRealTime.csproj.CoreCompileInputs.cache
+C:\dotnet_Ado_new\AdoRealTime\AdoRealTime\obj\Debug\AdoRealTime.exe
+C:\dotnet_Ado_new\AdoRealTime\AdoRealTime\obj\Debug\AdoRealTime.pdb

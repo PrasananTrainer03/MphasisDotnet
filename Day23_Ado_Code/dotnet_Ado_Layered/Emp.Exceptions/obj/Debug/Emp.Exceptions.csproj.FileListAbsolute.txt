@@ -1,0 +1,5 @@
+C:\dotnet_Ado_Layered\Emp.Exceptions\bin\Debug\Emp.Exceptions.dll
+C:\dotnet_Ado_Layered\Emp.Exceptions\bin\Debug\Emp.Exceptions.pdb
+C:\dotnet_Ado_Layered\Emp.Exceptions\obj\Debug\Emp.Exceptions.csproj.CoreCompileInputs.cache
+C:\dotnet_Ado_Layered\Emp.Exceptions\obj\Debug\Emp.Exceptions.dll
+C:\dotnet_Ado_Layered\Emp.Exceptions\obj\Debug\Emp.Exceptions.pdb

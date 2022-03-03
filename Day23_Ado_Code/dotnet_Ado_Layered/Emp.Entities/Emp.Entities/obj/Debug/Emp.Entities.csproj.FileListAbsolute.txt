@@ -1,0 +1,6 @@
+C:\dotnet_Ado_Layered\Emp.Entities\Emp.Entities\bin\Debug\Emp.Entities.dll
+C:\dotnet_Ado_Layered\Emp.Entities\Emp.Entities\bin\Debug\Emp.Entities.pdb
+C:\dotnet_Ado_Layered\Emp.Entities\Emp.Entities\obj\Debug\Emp.Entities.csproj.AssemblyReference.cache
+C:\dotnet_Ado_Layered\Emp.Entities\Emp.Entities\obj\Debug\Emp.Entities.csproj.CoreCompileInputs.cache
+C:\dotnet_Ado_Layered\Emp.Entities\Emp.Entities\obj\Debug\Emp.Entities.dll
+C:\dotnet_Ado_Layered\Emp.Entities\Emp.Entities\obj\Debug\Emp.Entities.pdb

@@ -1,0 +1,13 @@
+C:\dotnet_Ado_Layered\Employ.BusinessLayer\bin\Debug\Employ.BusinessLayer.dll
+C:\dotnet_Ado_Layered\Employ.BusinessLayer\bin\Debug\Employ.BusinessLayer.pdb
+C:\dotnet_Ado_Layered\Employ.BusinessLayer\bin\Debug\Emp.DAO.dll
+C:\dotnet_Ado_Layered\Employ.BusinessLayer\bin\Debug\Emp.Entities.dll
+C:\dotnet_Ado_Layered\Employ.BusinessLayer\bin\Debug\Emp.Exceptions.dll
+C:\dotnet_Ado_Layered\Employ.BusinessLayer\bin\Debug\Emp.DAO.pdb
+C:\dotnet_Ado_Layered\Employ.BusinessLayer\bin\Debug\Emp.Entities.pdb
+C:\dotnet_Ado_Layered\Employ.BusinessLayer\bin\Debug\Emp.Exceptions.pdb
+C:\dotnet_Ado_Layered\Employ.BusinessLayer\obj\Debug\Employ.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\dotnet_Ado_Layered\Employ.BusinessLayer\obj\Debug\Employ.BusinessLayer.csproj.CopyComplete
+C:\dotnet_Ado_Layered\Employ.BusinessLayer\obj\Debug\Employ.BusinessLayer.dll
+C:\dotnet_Ado_Layered\Employ.BusinessLayer\obj\Debug\Employ.BusinessLayer.pdb
+C:\dotnet_Ado_Layered\Employ.BusinessLayer\obj\Debug\Employ.BusinessLayer.csproj.AssemblyReference.cache
