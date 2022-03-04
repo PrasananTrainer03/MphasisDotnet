@@ -1,0 +1,5 @@
+C:\dotnet_Bank_Project\BankProject.Entities\BankProject.Entities\bin\Debug\BankProject.Entities.dll
+C:\dotnet_Bank_Project\BankProject.Entities\BankProject.Entities\bin\Debug\BankProject.Entities.pdb
+C:\dotnet_Bank_Project\BankProject.Entities\BankProject.Entities\obj\Debug\BankProject.Entities.csproj.CoreCompileInputs.cache
+C:\dotnet_Bank_Project\BankProject.Entities\BankProject.Entities\obj\Debug\BankProject.Entities.dll
+C:\dotnet_Bank_Project\BankProject.Entities\BankProject.Entities\obj\Debug\BankProject.Entities.pdb

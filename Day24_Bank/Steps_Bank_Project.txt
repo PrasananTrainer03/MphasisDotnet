@@ -1,0 +1,207 @@
+1) For bank in database we have 2 tables as
+
+    1) Accounts
+    2) Trans 
+
+Opeations to be Done
+______________________
+
+1) Create Accounts
+2) Search Account
+3) Close Account
+4) Deposit Account
+5) Withdraw Account
+________________________________
+
+6) Update Account (Only Update City and State remaining not required)
+
+7) Mini Statement (last 10 transaction details) 
+
+
+Accounts table contains all information about AccountDetails.
+
+	1) CreateAccount
+
+		AccountNo to be generated automatically 
+
+	2) Status and DateOfOpening can be taken care by Database, dont enter values in .NET app
+
+	3) close accounts change status as 'inactive' as don't delete records. 
+
+
+
+	
+Steps to Create Application
+____________________________
+
+
+1) Create a class Library Nameit as BankProject.Entities 
+
+Rename the class1.cs as Accounts.cs and add all properties (getters/setters) and toString()
+
+
+ public class Accounts
+    {
+        public int AccountNo { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string City { get; set; }
+        public string State { get;set; }
+        public int Amount { get; set; }
+        public string CheqFacil { get; set; }
+        public string AccountType { get; set; }
+    }
+
+After that you build the project and dll file gets created.
+
+ public override string ToString()
+        {
+            return "Account No  " + AccountNo + " First Name  " + FirstName + " Last Name " + LastName +
+                "City  " + City + " State " + State + " Amount " + Amount + " CheqFacil  " + CheqFacil 
+                + " Account Type " +AccountType;
+        }
+
+Step 2 : 
+
+Add New Class Library Project to the given solution, and name it as BankProject.DAO
+
+File -> Add New Project -> Class Library Project ->Name it as BankProject.DAO
+
+Rename the class as BankDAO.cs
+
+Add the Entities dll file to BankProject.DAO
+
+How to Add reference
+
+Right-Click on BankProject.DAO references -> Add Reference -> Browse -> Go to BankProject.Entities Project ->
+Bin -> Debug -> Add the dll file. 
+
+"server=Desktop\Express"
+
+giveas 
+
+@"server=Desktop\Express" or
+"server=Desktop\\Express"
+
+You can add connectionstring in 2 ways 
+
+1) Add App.config file to the solution and add
+
+right-click on BankProject.DAO project -> Add New Item -> Select Application Configuration File
+
+right-click on references of BankProject.DAO and add reference -> Recent -> Select System.Configuration namepsace
+
+Specify connectionString in App.Config file
+
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<connectionStrings>
+		<add name="bankconn" connectionString="integrated security=true;data source=DESKTOP-1P9MIR5;initial catalog=bank"/>
+	</connectionStrings>
+</configuration>
+
+Create a class in DAO project and name it as ConnectionHelper
+
+ public class ConnectionHelper
+    {
+        public static SqlConnection GetConnection()
+        {
+            string strcon = ConfigurationManager.ConnectionStrings["bankconn"].ConnectionString;
+            SqlConnection conn = new SqlConnection(strcon);
+            return conn;
+        }
+    }
+
+
+    public class BankDAO
+    {
+        SqlConnection conn;
+        SqlDataAdapter ad;
+
+        public int GenerateAccountNo()
+        {
+            conn = ConnectionHelper.GetConnection();
+            ad = new SqlDataAdapter("select case when max(accountNo) IS NULL THEN 1 ELSE MAX(AccountNo) + 1 " +
+                " END accno from Accounts", conn);
+            DataSet ds = new DataSet();
+            ad.Fill(ds, "AccountsDummy");
+            int accno = Convert.ToInt32(ds.Tables["AccountsDummy"].Rows[0]["accno"]);
+            return accno;
+        }
+
+        public string CreateAccount(Accounts accounts)
+        {
+            conn = ConnectionHelper.GetConnection();
+            ad = new SqlDataAdapter("select * from Accounts", conn);
+            SqlCommandBuilder cmd = new SqlCommandBuilder(ad);
+            DataSet ds = new DataSet();
+            ad.Fill(ds, "AccountsDummy");
+            DataRow dr = ds.Tables["AccountsDummy"].NewRow();
+            dr["AccountNo"] = accounts.AccountNo;
+            dr["FirstName"] = accounts.FirstName;
+            dr["LastName"] = accounts.LastName;
+            dr["city"] = accounts.City;
+            dr["state"] = accounts.State;
+            dr["amount"] = accounts.Amount;
+            dr["CheqFacil"] = accounts.CheqFacil;
+            dr["AccountType"] = accounts.AccountType;
+            ds.Tables["AccountsDummy"].Rows.Add(dr);
+            ad.Update(ds, "AccountsDummy");
+            return "Account Created...";
+        }
+    }
+
+Step 3: 
+
+Add New Project to existing, (Console Application to be Added)
+
+Add References of Entities and DAO to the project 
+
+project -> Add reference -> Browse -> Select Entities Project -> Bin -> Debug -> Dll file
+project -> Add reference -> Browse -> Select DAO Project -> Bin -> Debug -> Dll file
+
+
+2) else write connectionstring in ConnectionHelper class. 
+
+
+Write the Below Code in Console App
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using BankProject.DAO;
+using BankProject.Entities;
+using System.Threading.Tasks;
+
+namespace BankProject.Main
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Accounts accounts = new Accounts();
+            Console.WriteLine("Enter FirstName   ");
+            accounts.FirstName = Console.ReadLine();
+            Console.WriteLine("Enter LastName   ");
+            accounts.LastName = Console.ReadLine();
+            Console.WriteLine("Enter City   ");
+            accounts.City = Console.ReadLine();
+            Console.WriteLine("Enter State  ");
+            accounts.State = Console.ReadLine();
+            Console.WriteLine("Enter Amount  ");
+            accounts.Amount = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter CheqFacility  ");
+            accounts.CheqFacil = Console.ReadLine();
+            Console.WriteLine("Enter AccountType   ");
+            accounts.AccountType = Console.ReadLine();
+
+            BankDAO dao = new BankDAO();
+            Console.WriteLine(dao.CreateAccount(accounts));
+        }
+    }
+}
+
+
+_______________________________________________________________________________________________________
+

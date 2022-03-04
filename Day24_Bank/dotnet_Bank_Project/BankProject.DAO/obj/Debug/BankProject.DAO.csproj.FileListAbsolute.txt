@@ -1,0 +1,10 @@
+C:\dotnet_Bank_Project\BankProject.DAO\bin\Debug\BankProject.DAO.dll.config
+C:\dotnet_Bank_Project\BankProject.DAO\bin\Debug\BankProject.DAO.dll
+C:\dotnet_Bank_Project\BankProject.DAO\bin\Debug\BankProject.DAO.pdb
+C:\dotnet_Bank_Project\BankProject.DAO\bin\Debug\BankProject.Entities.dll
+C:\dotnet_Bank_Project\BankProject.DAO\bin\Debug\BankProject.Entities.pdb
+C:\dotnet_Bank_Project\BankProject.DAO\obj\Debug\BankProject.DAO.csproj.CoreCompileInputs.cache
+C:\dotnet_Bank_Project\BankProject.DAO\obj\Debug\BankProject.DAO.csproj.CopyComplete
+C:\dotnet_Bank_Project\BankProject.DAO\obj\Debug\BankProject.DAO.dll
+C:\dotnet_Bank_Project\BankProject.DAO\obj\Debug\BankProject.DAO.pdb
+C:\dotnet_Bank_Project\BankProject.DAO\obj\Debug\BankProject.DAO.csproj.AssemblyReference.cache
