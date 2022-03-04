@@ -1,0 +1,39 @@
+Project take 3 layers 
+
+as DAO
+   Entities
+   Main
+
+Write below code 
+
+1) Show Restaurant (select * from Restaurant) return type List<Restaurant>
+2) Search By RestaurantId (select * from Restaurant where restaurantId=@rid) returns Restaurant
+3) Show Menu By restaurant ID (Select * from Menu where restaurant_Id=@rid) 
+		returns List<Menu>
+
+4) Show Menu By MenuId (select * from Menu where menu_Id=@mid)
+		Returns Menu
+
+5) Show Customer (select * from Customer) returns List<Customer>
+
+6) Customer Authentication (Select Count(*) from Customer where cust_userName=@user
+	and Cust_password=@pwd)  returns 0 or 1
+
+7) Search By CustomerID : select * from Customer where custId=@custId 
+		returns Customer
+
+8) Show Vendor : (Select * from Vendor) List<Vendor> returns
+
+9) Vendor Authentication
+ (Select Count(*) from Vendor where vendor_userName=@user
+	and vendor_password=@pwd)  returns 0 or 1
+
+10) Search By VendorId : Select * from vendor where vendor_Id=@venid
+return Vendor
+
+11) Show Wallet by Customer ID
+		Select * from Wallet where cust_Id=@custId returns List<Wallet>
+
+12) Show Wallet By WalletID
+
+	Select * from Wallet where wallet_id=@wal_id returns Wallet
