@@ -1,0 +1,8 @@
+C:\dotnet_connected\P1\StoredProcRealTime\bin\Debug\StoredProcRealTime.exe.config
+C:\dotnet_connected\P1\StoredProcRealTime\bin\Debug\StoredProcRealTime.exe
+C:\dotnet_connected\P1\StoredProcRealTime\bin\Debug\StoredProcRealTime.pdb
+C:\dotnet_connected\P1\StoredProcRealTime\obj\Debug\StoredProcRealTime.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_connected\P1\StoredProcRealTime\obj\Debug\StoredProcRealTime.csproj.CoreCompileInputs.cache
+C:\dotnet_connected\P1\StoredProcRealTime\obj\Debug\StoredProcRealTime.exe
+C:\dotnet_connected\P1\StoredProcRealTime\obj\Debug\StoredProcRealTime.pdb
+C:\dotnet_connected\P1\StoredProcRealTime\obj\Debug\StoredProcRealTime.csproj.AssemblyReference.cache

@@ -1,0 +1,8 @@
+C:\dotnet_mphasis\Linq\Prog1\Prog1\bin\Debug\Prog1.exe.config
+C:\dotnet_mphasis\Linq\Prog1\Prog1\bin\Debug\Prog1.exe
+C:\dotnet_mphasis\Linq\Prog1\Prog1\bin\Debug\Prog1.pdb
+C:\dotnet_mphasis\Linq\Prog1\Prog1\obj\Debug\Prog1.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\Linq\Prog1\Prog1\obj\Debug\Prog1.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Linq\Prog1\Prog1\obj\Debug\Prog1.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Linq\Prog1\Prog1\obj\Debug\Prog1.exe
+C:\dotnet_mphasis\Linq\Prog1\Prog1\obj\Debug\Prog1.pdb

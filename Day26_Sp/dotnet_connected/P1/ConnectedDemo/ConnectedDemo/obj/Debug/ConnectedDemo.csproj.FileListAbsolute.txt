@@ -1,0 +1,8 @@
+C:\dotnet_connected\P1\ConnectedDemo\ConnectedDemo\bin\Debug\ConnectedDemo.exe.config
+C:\dotnet_connected\P1\ConnectedDemo\ConnectedDemo\bin\Debug\ConnectedDemo.exe
+C:\dotnet_connected\P1\ConnectedDemo\ConnectedDemo\bin\Debug\ConnectedDemo.pdb
+C:\dotnet_connected\P1\ConnectedDemo\ConnectedDemo\obj\Debug\ConnectedDemo.csproj.AssemblyReference.cache
+C:\dotnet_connected\P1\ConnectedDemo\ConnectedDemo\obj\Debug\ConnectedDemo.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_connected\P1\ConnectedDemo\ConnectedDemo\obj\Debug\ConnectedDemo.csproj.CoreCompileInputs.cache
+C:\dotnet_connected\P1\ConnectedDemo\ConnectedDemo\obj\Debug\ConnectedDemo.exe
+C:\dotnet_connected\P1\ConnectedDemo\ConnectedDemo\obj\Debug\ConnectedDemo.pdb

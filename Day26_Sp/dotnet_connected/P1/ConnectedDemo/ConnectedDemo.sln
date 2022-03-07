@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedDemo", "ConnectedDemo\ConnectedDemo.csproj", "{F661E17E-9B5B-401D-B62E-7EB39B23F4BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoredProcRealTime", "..\StoredProcRealTime\StoredProcRealTime.csproj", "{198C244F-B03F-4DC3-BBAC-EC161C160697}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F661E17E-9B5B-401D-B62E-7EB39B23F4BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F661E17E-9B5B-401D-B62E-7EB39B23F4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F661E17E-9B5B-401D-B62E-7EB39B23F4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F661E17E-9B5B-401D-B62E-7EB39B23F4BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{198C244F-B03F-4DC3-BBAC-EC161C160697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198C244F-B03F-4DC3-BBAC-EC161C160697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198C244F-B03F-4DC3-BBAC-EC161C160697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198C244F-B03F-4DC3-BBAC-EC161C160697}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA3DEC67-BC93-4030-A124-21DE5A294FFB}
+	EndGlobalSection
+EndGlobal
