@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Files\FileReadExample\FileReadExample\bin\Debug\FileReadExample.exe.config
+C:\dotnet_mphasis\Files\FileReadExample\FileReadExample\bin\Debug\FileReadExample.exe
+C:\dotnet_mphasis\Files\FileReadExample\FileReadExample\bin\Debug\FileReadExample.pdb
+C:\dotnet_mphasis\Files\FileReadExample\FileReadExample\obj\Debug\FileReadExample.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Files\FileReadExample\FileReadExample\obj\Debug\FileReadExample.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Files\FileReadExample\FileReadExample\obj\Debug\FileReadExample.exe
+C:\dotnet_mphasis\Files\FileReadExample\FileReadExample\obj\Debug\FileReadExample.pdb

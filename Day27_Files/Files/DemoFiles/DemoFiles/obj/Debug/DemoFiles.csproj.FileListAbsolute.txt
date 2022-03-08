@@ -1,0 +1,8 @@
+C:\dotnet_mphasis\Files\DemoFiles\DemoFiles\bin\Debug\DemoFiles.exe.config
+C:\dotnet_mphasis\Files\DemoFiles\DemoFiles\bin\Debug\DemoFiles.exe
+C:\dotnet_mphasis\Files\DemoFiles\DemoFiles\bin\Debug\DemoFiles.pdb
+C:\dotnet_mphasis\Files\DemoFiles\DemoFiles\obj\Debug\DemoFiles.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\Files\DemoFiles\DemoFiles\obj\Debug\DemoFiles.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Files\DemoFiles\DemoFiles\obj\Debug\DemoFiles.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Files\DemoFiles\DemoFiles\obj\Debug\DemoFiles.exe
+C:\dotnet_mphasis\Files\DemoFiles\DemoFiles\obj\Debug\DemoFiles.pdb

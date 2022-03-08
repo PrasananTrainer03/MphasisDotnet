@@ -1,0 +1,7 @@
+C:\dotnet_mphasis\Files\SerilizationExample\SerilizationExample\bin\Debug\SerilizationExample.exe.config
+C:\dotnet_mphasis\Files\SerilizationExample\SerilizationExample\bin\Debug\SerilizationExample.exe
+C:\dotnet_mphasis\Files\SerilizationExample\SerilizationExample\bin\Debug\SerilizationExample.pdb
+C:\dotnet_mphasis\Files\SerilizationExample\SerilizationExample\obj\Debug\SerilizationExample.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\Files\SerilizationExample\SerilizationExample\obj\Debug\SerilizationExample.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\Files\SerilizationExample\SerilizationExample\obj\Debug\SerilizationExample.exe
+C:\dotnet_mphasis\Files\SerilizationExample\SerilizationExample\obj\Debug\SerilizationExample.pdb
