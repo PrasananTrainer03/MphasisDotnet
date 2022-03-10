@@ -1,0 +1,11 @@
+C:\dotnet_mphasis\ReflectionExample\ReflectionExample1\bin\Debug\ReflectionExample1.exe.config
+C:\dotnet_mphasis\ReflectionExample\ReflectionExample1\bin\Debug\ReflectionExample1.exe
+C:\dotnet_mphasis\ReflectionExample\ReflectionExample1\bin\Debug\ReflectionExample1.pdb
+C:\dotnet_mphasis\ReflectionExample\ReflectionExample1\bin\Debug\clsReflection.dll
+C:\dotnet_mphasis\ReflectionExample\ReflectionExample1\bin\Debug\clsReflection.pdb
+C:\dotnet_mphasis\ReflectionExample\ReflectionExample1\obj\Debug\ReflectionExample1.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\ReflectionExample\ReflectionExample1\obj\Debug\ReflectionExample1.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\ReflectionExample\ReflectionExample1\obj\Debug\ReflectionExample1.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\ReflectionExample\ReflectionExample1\obj\Debug\ReflectionExample1.csproj.CopyComplete
+C:\dotnet_mphasis\ReflectionExample\ReflectionExample1\obj\Debug\ReflectionExample1.exe
+C:\dotnet_mphasis\ReflectionExample\ReflectionExample1\obj\Debug\ReflectionExample1.pdb

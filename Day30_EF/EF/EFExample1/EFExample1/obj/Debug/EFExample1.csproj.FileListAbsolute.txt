@@ -1,0 +1,13 @@
+C:\dotnet_mphasis\EF\EFExample1\EFExample1\bin\Debug\EFExample1.exe.config
+C:\dotnet_mphasis\EF\EFExample1\EFExample1\bin\Debug\EFExample1.exe
+C:\dotnet_mphasis\EF\EFExample1\EFExample1\bin\Debug\EFExample1.pdb
+C:\dotnet_mphasis\EF\EFExample1\EFExample1\obj\Debug\EFExample1.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\EF\EFExample1\EFExample1\obj\Debug\EFExample1.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\EF\EFExample1\EFExample1\obj\Debug\EFExample1.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\EF\EFExample1\EFExample1\obj\Debug\EFExample1.exe
+C:\dotnet_mphasis\EF\EFExample1\EFExample1\obj\Debug\EFExample1.pdb
+C:\dotnet_mphasis\EF\EFExample1\EFExample1\bin\Debug\EntityFramework.dll
+C:\dotnet_mphasis\EF\EFExample1\EFExample1\bin\Debug\EntityFramework.SqlServer.dll
+C:\dotnet_mphasis\EF\EFExample1\EFExample1\bin\Debug\EntityFramework.xml
+C:\dotnet_mphasis\EF\EFExample1\EFExample1\bin\Debug\EntityFramework.SqlServer.xml
+C:\dotnet_mphasis\EF\EFExample1\EFExample1\obj\Debug\EFExample1.csproj.CopyComplete

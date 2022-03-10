@@ -1,0 +1,6 @@
+C:\dotnet_mphasis\ReflectionExample\clsReflection\clsReflection\bin\Debug\clsReflection.dll
+C:\dotnet_mphasis\ReflectionExample\clsReflection\clsReflection\bin\Debug\clsReflection.pdb
+C:\dotnet_mphasis\ReflectionExample\clsReflection\clsReflection\obj\Debug\clsReflection.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\ReflectionExample\clsReflection\clsReflection\obj\Debug\clsReflection.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\ReflectionExample\clsReflection\clsReflection\obj\Debug\clsReflection.dll
+C:\dotnet_mphasis\ReflectionExample\clsReflection\clsReflection\obj\Debug\clsReflection.pdb
