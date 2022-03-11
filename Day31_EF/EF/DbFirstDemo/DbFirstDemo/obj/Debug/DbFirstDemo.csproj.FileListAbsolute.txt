@@ -1,0 +1,13 @@
+C:\dotnet_mphasis\EF\DbFirstDemo\DbFirstDemo\bin\Debug\DbFirstDemo.exe.config
+C:\dotnet_mphasis\EF\DbFirstDemo\DbFirstDemo\bin\Debug\DbFirstDemo.exe
+C:\dotnet_mphasis\EF\DbFirstDemo\DbFirstDemo\bin\Debug\DbFirstDemo.pdb
+C:\dotnet_mphasis\EF\DbFirstDemo\DbFirstDemo\bin\Debug\EntityFramework.dll
+C:\dotnet_mphasis\EF\DbFirstDemo\DbFirstDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\dotnet_mphasis\EF\DbFirstDemo\DbFirstDemo\bin\Debug\EntityFramework.xml
+C:\dotnet_mphasis\EF\DbFirstDemo\DbFirstDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\dotnet_mphasis\EF\DbFirstDemo\DbFirstDemo\obj\Debug\DbFirstDemo.csproj.AssemblyReference.cache
+C:\dotnet_mphasis\EF\DbFirstDemo\DbFirstDemo\obj\Debug\DbFirstDemo.csproj.SuggestedBindingRedirects.cache
+C:\dotnet_mphasis\EF\DbFirstDemo\DbFirstDemo\obj\Debug\DbFirstDemo.csproj.CoreCompileInputs.cache
+C:\dotnet_mphasis\EF\DbFirstDemo\DbFirstDemo\obj\Debug\DbFirstDemo.csproj.CopyComplete
+C:\dotnet_mphasis\EF\DbFirstDemo\DbFirstDemo\obj\Debug\DbFirstDemo.exe
+C:\dotnet_mphasis\EF\DbFirstDemo\DbFirstDemo\obj\Debug\DbFirstDemo.pdb

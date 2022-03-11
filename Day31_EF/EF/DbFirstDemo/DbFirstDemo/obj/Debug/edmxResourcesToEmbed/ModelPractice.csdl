@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="practicespModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="practicespEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="prcEmployDelete">
+      <Parameter Name="empno" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="prcEmployInsert">
+      <Parameter Name="empno" Mode="InOut" Type="Int32" />
+      <Parameter Name="name" Mode="In" Type="String" />
+      <Parameter Name="gender" Mode="In" Type="String" />
+      <Parameter Name="dept" Mode="In" Type="String" />
+      <Parameter Name="desig" Mode="In" Type="String" />
+      <Parameter Name="basic" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="prcEmployOutExample">
+      <Parameter Name="empno" Mode="In" Type="Int32" />
+      <Parameter Name="name" Mode="InOut" Type="String" />
+      <Parameter Name="gender" Mode="InOut" Type="String" />
+      <Parameter Name="dept" Mode="InOut" Type="String" />
+      <Parameter Name="desig" Mode="InOut" Type="String" />
+      <Parameter Name="basic" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="prcEmploySearch" ReturnType="Collection(practicespModel.prcEmploySearch_Result)">
+      <Parameter Name="empno" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="prcEmployShow" ReturnType="Collection(practicespModel.prcEmployShow_Result)" />
+  </EntityContainer>
+  <ComplexType Name="prcEmploySearch_Result">
+    <Property Type="Int32" Name="Empno" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Dept" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Desig" Nullable="true" MaxLength="30" />
+    <Property Type="Decimal" Name="Basic" Nullable="true" Precision="9" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="prcEmployShow_Result">
+    <Property Type="Int32" Name="Empno" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Dept" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Desig" Nullable="true" MaxLength="30" />
+    <Property Type="Decimal" Name="Basic" Nullable="true" Precision="9" Scale="2" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="practicespModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <Function Name="prcEmployDelete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="empno" Type="int" Mode="In" />
+        </Function>
+        <Function Name="prcEmployInsert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="empno" Type="int" Mode="InOut" />
+          <Parameter Name="name" Type="varchar" Mode="In" />
+          <Parameter Name="gender" Type="varchar" Mode="In" />
+          <Parameter Name="dept" Type="varchar" Mode="In" />
+          <Parameter Name="desig" Type="varchar" Mode="In" />
+          <Parameter Name="basic" Type="int" Mode="In" />
+        </Function>
+        <Function Name="prcEmployOutExample" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="empno" Type="int" Mode="In" />
+          <Parameter Name="name" Type="varchar" Mode="InOut" />
+          <Parameter Name="gender" Type="varchar" Mode="InOut" />
+          <Parameter Name="dept" Type="varchar" Mode="InOut" />
+          <Parameter Name="desig" Type="varchar" Mode="InOut" />
+          <Parameter Name="basic" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="prcEmploySearch" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="empno" Type="int" Mode="In" />
+        </Function>
+        <Function Name="prcEmployShow" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="practicespModelStoreContainer" />
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="practicespModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="practicespEntities" annotation:LazyLoadingEnabled="true" >
+          <FunctionImport Name="prcEmployDelete">
+            <Parameter Name="empno" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="prcEmployInsert">
+            <Parameter Name="empno" Mode="InOut" Type="Int32" />
+            <Parameter Name="name" Mode="In" Type="String" />
+            <Parameter Name="gender" Mode="In" Type="String" />
+            <Parameter Name="dept" Mode="In" Type="String" />
+            <Parameter Name="desig" Mode="In" Type="String" />
+            <Parameter Name="basic" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="prcEmployOutExample">
+            <Parameter Name="empno" Mode="In" Type="Int32" />
+            <Parameter Name="name" Mode="InOut" Type="String" />
+            <Parameter Name="gender" Mode="InOut" Type="String" />
+            <Parameter Name="dept" Mode="InOut" Type="String" />
+            <Parameter Name="desig" Mode="InOut" Type="String" />
+            <Parameter Name="basic" Mode="InOut" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="prcEmploySearch" ReturnType="Collection(practicespModel.prcEmploySearch_Result)">
+            <Parameter Name="empno" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="prcEmployShow" ReturnType="Collection(practicespModel.prcEmployShow_Result)" />
+        </EntityContainer>
+        <ComplexType Name="prcEmploySearch_Result">
+          <Property Type="Int32" Name="Empno" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="30" />
+          <Property Type="String" Name="Gender" Nullable="true" MaxLength="10" />
+          <Property Type="String" Name="Dept" Nullable="true" MaxLength="30" />
+          <Property Type="String" Name="Desig" Nullable="true" MaxLength="30" />
+          <Property Type="Decimal" Name="Basic" Nullable="true" Precision="9" Scale="2" />
+        </ComplexType>
+        <ComplexType Name="prcEmployShow_Result">
+          <Property Type="Int32" Name="Empno" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="30" />
+          <Property Type="String" Name="Gender" Nullable="true" MaxLength="10" />
+          <Property Type="String" Name="Dept" Nullable="true" MaxLength="30" />
+          <Property Type="String" Name="Desig" Nullable="true" MaxLength="30" />
+          <Property Type="Decimal" Name="Basic" Nullable="true" Precision="9" Scale="2" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="practicespModelStoreContainer" CdmEntityContainer="practicespEntities" >
+          <FunctionImportMapping FunctionImportName="prcEmployDelete" FunctionName="practicespModel.Store.prcEmployDelete" />
+          <FunctionImportMapping FunctionImportName="prcEmployInsert" FunctionName="practicespModel.Store.prcEmployInsert" />
+          <FunctionImportMapping FunctionImportName="prcEmployOutExample" FunctionName="practicespModel.Store.prcEmployOutExample" />
+          <FunctionImportMapping FunctionImportName="prcEmploySearch" FunctionName="practicespModel.Store.prcEmploySearch">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="practicespModel.prcEmploySearch_Result">
+                <ScalarProperty Name="Empno" ColumnName="Empno" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Dept" ColumnName="Dept" />
+                <ScalarProperty Name="Desig" ColumnName="Desig" />
+                <ScalarProperty Name="Basic" ColumnName="Basic" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="prcEmployShow" FunctionName="practicespModel.Store.prcEmployShow">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="practicespModel.prcEmployShow_Result">
+                <ScalarProperty Name="Empno" ColumnName="Empno" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Dept" ColumnName="Dept" />
+                <ScalarProperty Name="Desig" ColumnName="Desig" />
+                <ScalarProperty Name="Basic" ColumnName="Basic" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

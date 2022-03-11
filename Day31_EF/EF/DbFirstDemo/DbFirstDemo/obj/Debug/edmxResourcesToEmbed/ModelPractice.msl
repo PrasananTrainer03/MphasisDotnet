@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="practicespModelStoreContainer" CdmEntityContainer="practicespEntities">
+    <FunctionImportMapping FunctionImportName="prcEmployDelete" FunctionName="practicespModel.Store.prcEmployDelete" />
+    <FunctionImportMapping FunctionImportName="prcEmployInsert" FunctionName="practicespModel.Store.prcEmployInsert" />
+    <FunctionImportMapping FunctionImportName="prcEmployOutExample" FunctionName="practicespModel.Store.prcEmployOutExample" />
+    <FunctionImportMapping FunctionImportName="prcEmploySearch" FunctionName="practicespModel.Store.prcEmploySearch">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="practicespModel.prcEmploySearch_Result">
+          <ScalarProperty Name="Empno" ColumnName="Empno" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Dept" ColumnName="Dept" />
+          <ScalarProperty Name="Desig" ColumnName="Desig" />
+          <ScalarProperty Name="Basic" ColumnName="Basic" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="prcEmployShow" FunctionName="practicespModel.Store.prcEmployShow">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="practicespModel.prcEmployShow_Result">
+          <ScalarProperty Name="Empno" ColumnName="Empno" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Dept" ColumnName="Dept" />
+          <ScalarProperty Name="Desig" ColumnName="Desig" />
+          <ScalarProperty Name="Basic" ColumnName="Basic" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

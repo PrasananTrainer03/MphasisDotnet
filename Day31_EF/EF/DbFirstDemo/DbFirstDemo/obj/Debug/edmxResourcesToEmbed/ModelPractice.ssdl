@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="practicespModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <Function Name="prcEmployDelete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="empno" Type="int" Mode="In" />
+  </Function>
+  <Function Name="prcEmployInsert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="empno" Type="int" Mode="InOut" />
+    <Parameter Name="name" Type="varchar" Mode="In" />
+    <Parameter Name="gender" Type="varchar" Mode="In" />
+    <Parameter Name="dept" Type="varchar" Mode="In" />
+    <Parameter Name="desig" Type="varchar" Mode="In" />
+    <Parameter Name="basic" Type="int" Mode="In" />
+  </Function>
+  <Function Name="prcEmployOutExample" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="empno" Type="int" Mode="In" />
+    <Parameter Name="name" Type="varchar" Mode="InOut" />
+    <Parameter Name="gender" Type="varchar" Mode="InOut" />
+    <Parameter Name="dept" Type="varchar" Mode="InOut" />
+    <Parameter Name="desig" Type="varchar" Mode="InOut" />
+    <Parameter Name="basic" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="prcEmploySearch" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="empno" Type="int" Mode="In" />
+  </Function>
+  <Function Name="prcEmployShow" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="practicespModelStoreContainer" />
+</Schema>
