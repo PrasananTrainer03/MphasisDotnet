@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2c03e990-3a1b-4871-8d73-81e18f42279d": {
+      "ProjectGuid": "2c03e990-3a1b-4871-8d73-81e18f42279d",
+      "DisplayName": "BankProject.Entities",
+      "ColorIndex": 0
+    },
+    "eb7e2b63-5dd6-458e-92c9-cd4634d4e504": {
+      "ProjectGuid": "eb7e2b63-5dd6-458e-92c9-cd4634d4e504",
+      "DisplayName": "BankProject.DAO",
+      "ColorIndex": 1
+    },
+    "efd193a9-4d0e-4c71-bd6a-f105e2689e8a": {
+      "ProjectGuid": "efd193a9-4d0e-4c71-bd6a-f105e2689e8a",
+      "DisplayName": "BankProject.Main",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
